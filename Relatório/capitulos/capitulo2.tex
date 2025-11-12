@@ -3,48 +3,60 @@
 
 \section{Continuidade e Validação do Projeto}
 
-O projeto foi herdado de grupos anteriores e teve como foco a validação do trabalho previamente realizado. A equipa iniciou com uma análise crítica da aplicação existente, seguida de testes com utilizadores para identificar problemas de usabilidade, desempenho e clareza funcional.
+O projeto foi recebido de grupos anteriores e o foco principal foi validar o que já existia. A equipa começou por analisar a aplicação, fez testes com utilizadores e identificou problemas de usabilidade, desempenho e clareza. Definiram‑se melhorias simples e progressivas, dando prioridade à fiabilidade do registo de reciclagens e à redução da complexidade dos fluxos.
 
 \section{Migração Tecnológica}
 
-Foi realizada a migração da linguagem de programação Java para Kotlin, com o objetivo de melhorar a legibilidade do código, facilitar a manutenção e otimizar o desempenho da aplicação. Esta transição permitiu uma integração mais eficiente com o Android Studio e com a base de dados Firebase.
+O código foi migrado de Java para Kotlin para melhorar a legibilidade, facilitar a manutenção e aumentar o desempenho. A mudança permitiu uma integração mais fácil com o Android Studio e com o Firebase. Em paralelo, reduziu‑se a dívida técnica: reorganização de pacotes, remoção de redundâncias e adoção de convenções idiomáticas de Kotlin.
 
 \newpage
 \section{Reestruturação da Base de Dados}
 
 A base de dados Firebase foi reorganizada em coleções específicas:
-
 \begin{itemize}
     \item \texttt{codigo\_barras}
     \item \texttt{reciclagens}
     \item \texttt{users}
 \end{itemize}
+Foram corrigidos problemas de estrutura e melhorada a ligação entre as reciclagens e os utilizadores.
 
-Foram corrigidos problemas de estrutura e melhorada a ligação entre os dados das reciclagens e os utilizadores.
+\section{Reconhecimento Automático de Objetos}
 
-\section{Funcionalidades implementadas}
+Foram usados dois métodos complementares:
+\begin{itemize}
+    \item Leitura de códigos de barras com processamento de frames em tempo real, usando Google ML Kit e \texttt{CameraView}, para maior taxa de deteção e robustez.
+    \item Classificação de imagem estática com um modelo de \emph{deep learning}.
+\end{itemize}
+Quando a câmara não detetava o código de barras, o utilizador podia sugerir o código para aprovação do administrador, evitando erros na inserção de dados.
+
+\section{Funcionalidades Implementadas}
 
 \begin{itemize}
     \item Autenticação de utilizadores e administradores.
     \item Registo de reciclagens por três métodos: código de barras, reconhecimento de objeto e inserção manual.
     \item Cálculo automático do impacto ambiental (CO\textsubscript{2}, energia e petróleo).
-    \item Visualização e validação de reciclagens por parte do administrador.
+    \item Contextualização dos impactos (por exemplo, emissões evitadas e poupanças estimadas) para promover literacia ambiental.
+    \item Visualização e validação de reciclagens pelo administrador.
 \end{itemize}
 
 \section{Interface Gráfica}
-Foram criados novos layouts para login, registo e páginas de reciclagem. A interface do administrador passou a incluir botões para validação e adição de códigos de barras.
+
+Foram criados novos layouts para login, registo e páginas de reciclagem. A área de administração passou a ter botões para validar e adicionar códigos de barras. Melhorou‑se a responsividade para ecrãs pequenos e de baixa resolução e simplificou‑se a interface de registo para reduzir erros.
 
 \section{Testes e Validação}
-A aplicação foi testada com 26 utilizadores (alunos e funcionários), tendo sido recolhidos dados quantitativos e qualitativos que permitiram melhorias na navegação, design e desempenho.
+
+A aplicação foi testada com 26 utilizadores (alunos e funcionários). Os dados recolhidos, quantitativos e qualitativos, suportaram melhorias na navegação, no design e no desempenho.
 
 \section{Limitações Identificadas}
+
 \begin{itemize}
-    \item Erros de usabilidade e tradução.
-    \item Reconhecimento de objetos com baixa fiabilidade.
+    \item Erros de usabilidade e de tradução.
+    \item Reconhecimento de objetos com fiabilidade reduzida.
     \item Redundância de imagens na base de dados.
-    \item Dificuldades de integração com versões antigas do sistema operativo Android.
+    \item Compatibilidade limitada com versões antigas do Android.
 \end{itemize}
 
 \section{Conclusões e Trabalhos Futuros}
-A validação do projeto foi considerada um sucesso, com a maioria dos utilizadores a relatar uma experiência positiva. Para o futuro, recomenda-se a continuação da otimização da aplicação, bem como a adição de novas funcionalidades com base no feedback dos utilizadores.
+
+A validação foi globalmente positiva. Recomenda‑se continuar a otimizar a aplicação e a acrescentar funcionalidades com base no feedback dos utilizadores. Em particular, propõe‑se: (i) uma interface no módulo de administração para gerir códigos de barras pendentes de aprovação; (ii) melhorar o reconhecimento de objetos a partir de fotografia, para maior precisão
 
