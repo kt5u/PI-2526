@@ -3070,16 +3070,8 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">03-bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">book:Brooks1995</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">book:Brooks1995</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">Chen1976</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">AndroidDoc</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">book:Brooks1995</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">Chen1976</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Quicksort1962</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">Quicksort1962</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">AndroidDoc</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">Chen1976</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">AndroidDoc</bcf:citekey>
+    <bcf:citekey order="1" intorder="2">Chen1976</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

@@ -1,60 +1,12 @@
 \chapter{Introdução}
 \label{intro}
 
-Este Projeto Integrado dá continuidade e evolui o trabalho desenvolvido no ano letivo anterior, centrado numa aplicação de apoio à reciclagem no campus do IPBeja. O objetivo é transformar o protótipo existente numa solução mais robusta, intuitiva e mensurável, capaz de promover a participação da comunidade académica na separação de resíduos e de apoiar os serviços operacionais com dados fiáveis para tomada de decisão.
-
-A sustentabilidade ambiental e a gestão eficiente de resíduos são prioridades institucionais e alinhadas com metas europeias. As instituições de ensino superior, pela sua dimensão e capacidade de influência, são ambientes privilegiados para adoção de práticas sustentáveis suportadas por tecnologia, potenciando mudanças de comportamento e ganhos operacionais.
-
-O problema identificado no contexto do IPBeja inclui adesão irregular à separação de resíduos, falta de feedback ao utilizador sobre o impacto das suas ações, escassez de incentivos e ausência de indicadores consolidados para apoio à gestão. A aplicação existente abordou parte destes desafios; porém, requer melhorias de usabilidade, fiabilidade, cobertura funcional e medição de impacto.
-
-O objetivo geral deste projeto é evoluir a aplicação de reciclagem do IPBeja, aumentando o envolvimento dos utilizadores e a eficiência operacional. Objetivos específicos:
-\begin{itemize}
-    \item Consolidar o código existente: correção de erros, atualização de dependências e melhoria de desempenho.
-    \item Melhorar a experiência de utilizador (UX/UI) e a acessibilidade, simplificando fluxos críticos.
-    \item Introduzir mecanismos de gamificação (pontos, distintivos e rankings por curso/unidade orgânica) para incentivar a participação.
-    \item Integrar a identificação de pontos de recolha (por exemplo, via códigos QR ou etiquetas NFC), com suporte a utilização offline e sincronização posterior.
-    \item Recolher e anonimizar dados para métricas de impacto (participação, frequência de utilização, estimativas de resíduos desviados de indiferenciado e CO\textsubscript{2} evitado).
-    \item Disponibilizar um painel de acompanhamento para os serviços internos, com indicadores, alertas e exportação de relatórios.
-    \item Implementar notificações e campanhas contextuais para promover boas práticas e eventos temáticos.
-    \item Aumentar a cobertura de testes automáticos e introduzir integração contínua para melhorar a qualidade.
-\end{itemize}
-
-A metodologia adotada é incremental e iterativa: (i) levantamento e validação de requisitos com estudantes, docentes e serviços; (ii) análise crítica do legado e definição de arquitetura alvo; (iii) prototipagem de interfaces e testes de usabilidade; (iv) desenvolvimento por sprints, com integração contínua e revisão de código; (v) testes unitários, de integração e piloto em edifícios selecionados; (vi) avaliação de resultados com base em métricas definidas e recolha de feedback para melhorias.
-
-O âmbito do projeto foca-se no campus do IPBeja e nos fluxos de resíduos mais comuns (papel/cartão, plástico/metal e vidro), privilegiando funcionalidades com impacto direto na adoção e na medição. Estão fora de âmbito integrações externas complexas e funcionalidades não essenciais à validação dos objetivos (por exemplo, mecanismos de pagamento).
-
-Como resultados, pretende-se obter: (i) uma aplicação estável e fácil de usar, (ii) um aumento mensurável da participação face à linha de base do projeto anterior, (iii) indicadores operacionais úteis para os serviços e (iv) evidência do potencial de escalabilidade da solução.
-
-Estrutura do documento:
-\begin{itemize}
-    \item Capítulo~\ref{cap2}: Estado da Arte e Trabalho Relacionado — síntese de soluções e práticas relevantes em reciclagem assistida por tecnologia.
-    \item Capítulo~\ref{cap:metodologia}: Metodologia — abordagem, processos e ferramentas utilizadas.
-    \item Capítulo~\ref{cap:analise}: Análise e Arquitetura — requisitos, modelo de domínio e decisões de desenho.
-    \item Capítulo~\ref{cap:implementacao}: Implementação e Validação — principais componentes desenvolvidos, testes e resultados do piloto.
-    \item Capítulo~\ref{cap:conclusao}: Conclusões e Trabalho Futuro — síntese dos contributos e linhas de investigação futuras.
-\end{itemize}
-
-Sugestão de capítulos e/ou secções para relatórios de projetos ou dissertações de mestrado:
-\begin{enumerate}
-    \item Introdução: tema, objetivo geral, a quem se destina, o que é suposto o leitor saber, apresentação da estrutura do documento (quais os capítulos que o constituem e uma frase resumo sobre o conteúdo de cada um);
-    \item Motivação para o tema (pode estar no capítulo de introdução); porque é que é importante o tema do trabalho;
-    \item Descrição e apresentação clara do problema que se pretende resolver; deve ficar claro porque é que é importante/útil resolver esse problema;
-    \item Estado da arte/trabalho relacionado (o que existe / o que se sabe sobre o problema a resolver); é um capítulo teórico que pode apresentar o que importa saber sobre o problema; 
-    \item  Descrição dos métodos para resolver o problema; pode incluir uma descrição das tecnologias, ferramentas e linguagens utilizadas, se foi feito um inquérito, etc.;
-    \item Um ou mais capítulos/secções sobre o que foi feito; por exemplo, análise, projecto, implementações e teste/validação;
-    \item Discussão / Conclusão (podem ser capítulos separados)
-\end{enumerate}
-
-Importa ter presente que o principal objetivo do documento é o leitor perceber o que foi feito e porque é que é importante/útil. Também deve permitir que o leitor fique a saber onde encontrar mais informação sobre o tema do trabalho desenvolvido.
-
-Outras indicações sobre \LaTeX:
-\begin{enumerate}
-    \item Não se preocupe com as formatações. Utilize as que já estão exemplificadas no Capítulo \ref{cap2};
-    \item Em especial, não se preocupe com o sítio em que ficam as figuras  \textit{flutuantes} (\textit{floating}): estas são arrumadas automaticamente pelo \LaTeX;  ficarão tanto melhor arrumados quanto mais texto houver; muitos elementos flutuantes em pouco texto não costuma permitir um documento com um \textit{layout} equilibrado; quando \textbf{concluir} a escrita do texto poderá então fazer pequenos ajustes na posição das figuras e tabelas utilizando, por exemplo, os seguintes métodos: alterar a dimensão das figuras (devem ficar o mais pequenas possível desde que legíveis na dimensão A4); inserir quebras de página (\verb|\pagebreak|), alterar o local no texto em que surge o comando de inserção de cada figura; ou colocar as figuras sem serem flutuantes (exemplificado pelo Fig. \ref{fig:exemplofigFixa} no Capítulo \ref{cap2}; no entanto esta última opção deve ser utilizada com último recurso pois o posicionamento automático, desde que com texto suficiente, deverá produzir um layout mais equilibrado.
-    \item Procure evitar o comando \verb|\pagebreak|. Só o deve utilizar no final para eventuais ajustes na paginação.
-    \item Deve referir cada uma das figuras, listagens e tabelas pelo menos uma vez; utilize sempre o comando \verb|\ref{umaLabel}|. Por exemplo: "na Fig.\linebreak \verb|\ref{fig:exemplofig}|"\ ou "A Listagem \verb|\ref{lst:exemplolst01}|";
-    \item Para referir capítulos, secções figuras, listagens e tabelas utilize "Capítulo\linebreak \verb|\ref{cap:exemplo}|", "Secção \verb|\ref{sec:exemplo}|", "Fig. \verb|\ref{fig:exemplo}|", "Listagem \verb|\ref{lst:exemplo}|"\ e "Tabela \verb|\ref{tab:exemplo}|", respectivamente;
-    \item Se pretender forçar uma mudança de linha pode utilizar \verb|\\|; se quiser que essa linha partida fique justificada, ocupando toda a largura da página, pode utilizar o comando \verb|\linebreak|; 
-    \item Para que o \LaTeX respeite a regra, em português, de hífen na mudança de linha, deve utilizar o comando \verb!"-! em lugar de \verb!-!. Por exemplo, deve escrever \verb!arco"-íris! em lugar de \verb!arco-íris!. Desta forma, quando mudar de linha no hífen, a palavra \textbf{arco"-íris} ficará em duas partes: "arco-"\ no fim de uma linha e  "-íris"\ no início da linha seguinte. Se não conhece esta regra, consulte, por exemplo, a seguinte página no Ciberdúvidas: \href{https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-barra-e-o-hifen-na-translineacao/12731}{https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-barra-e-o-hifen-na-translineacao/12731}.
-\end{enumerate}
-
+O principal objetivo do projeto “IPB Recicla” é incentivar a participação na
+reciclagem na comunidade do IPBeja, monitorizando a reciclagem através de uma
+aplicação móvel e disponibilizando dados estatísticos sobre o impacto ambiental
+na sociedade. Esta aplicação tem como objetivo educar e facilitar a reciclagem
+dos alunos, docentes e funcionários do IPBeja. Além disso, procura fornecer uma
+forma fácil de registar a reciclagem efetuada e observar o progresso da comunidade.
+A análise inicial centra-se na revisão do trabalho realizado em projetos anteriores e na identificação de limitações e áreas para uma possível melhoria. Encontraram-se problemas de usabilidade no sistema de reconhecimento de objetos, como
+botões extra e erros gramaticais. A interface também possui limitações no acesso às estatísticas de poupança e na gestão de códigos de barras, que
+foram resolvidas no pedido de melhoria.
