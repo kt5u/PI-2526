@@ -557,10 +557,9 @@ INPUT ./capitulos/capitulo1-introducao.tex
 INPUT ./capitulos/capitulo1-introducao.tex
 INPUT ./capitulos/capitulo2.tex
 INPUT ./capitulos/capitulo2.tex
+INPUT /home/denis/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
 INPUT ./capitulos/capitulo3.tex
 INPUT ./capitulos/capitulo3.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-la.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-la.tex
 OUTPUT 01-main-document.toc
 OUTPUT 01-main-document.lof
 OUTPUT 01-main-document.lot

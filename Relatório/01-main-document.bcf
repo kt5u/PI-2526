@@ -3070,8 +3070,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">03-bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">AndroidDoc</bcf:citekey>
-    <bcf:citekey order="1" intorder="2">Chen1976</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

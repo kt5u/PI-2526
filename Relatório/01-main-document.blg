@@ -1,19 +1,9 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is '01-main-document.blg'
-[96] biber:340> INFO - === Wed Nov 12, 2025, 21:27:18
-[115] Biber.pm:420> INFO - Reading '01-main-document.bcf'
-[227] Biber.pm:994> INFO - Found 2 citekeys in bib section 0
-[253] Biber.pm:4463> INFO - Processing section 0
-[265] Biber.pm:4654> INFO - Looking for bibtex file '03-bibliography.bib' for section 0
-[266] bibtex.pm:1713> INFO - LaTeX decoding ...
-[276] bibtex.pm:1519> INFO - Found BibTeX data source '03-bibliography.bib'
-[323] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[323] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[323] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'pt-PT'
-[324] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
-[335] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[335] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[335] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'pt-PT'
-[335] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
-[343] bbl.pm:676> INFO - Writing '01-main-document.bbl' with encoding 'UTF-8'
-[345] bbl.pm:779> INFO - Output to 01-main-document.bbl
+[156] biber:340> INFO - === Wed Nov 12, 2025, 21:38:44
+[188] Biber.pm:420> INFO - Reading '01-main-document.bcf'
+[321] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[352] bbl.pm:676> INFO - Writing '01-main-document.bbl' with encoding 'UTF-8'
+[353] bbl.pm:779> INFO - Output to 01-main-document.bbl
+[353] Biber.pm:131> WARN - The file '01-main-document.bcf' does not contain any citations!
+[354] Biber.pm:133> INFO - WARNINGS: 1

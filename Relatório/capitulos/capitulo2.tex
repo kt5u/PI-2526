@@ -1,9 +1,50 @@
-\chapter{Análise/Definição do Problema}
+\chapter{Ano Letivo 2022/2023}
 \label{cap2}
 
-O principal objetivo do projeto “IPB Recicla” é incentivar a participação na reciclagem pela comunidade do IPBeja, monitorizando as ações de separação de resíduos através de uma aplicação móvel e disponibilizando dados estatísticos sobre o respetivo impacto ambiental. A aplicação visa educar e facilitar a adoção de boas práticas por estudantes, docentes e funcionários do IPBeja. Adicionalmente, proporciona um meio simples para registar a reciclagem efetuada e acompanhar o progresso individual e coletivo da comunidade.
+\section{Continuidade e Validação do Projeto}
 
-A análise inicial incide na revisão do trabalho desenvolvido em projetos anteriores, identificando limitações e oportunidades de melhoria. Verificaram-se problemas de usabilidade no sistema de reconhecimento de objetos (por exemplo, presença de botões redundantes) e incorreções linguísticas. A interface apresenta, ainda, limitações no acesso às estatísticas de poupança e na gestão de códigos de barras, aspetos que são endereçados na proposta de
+O projeto foi herdado de grupos anteriores e teve como foco a validação do trabalho previamente realizado. A equipa iniciou com uma análise crítica da aplicação existente, seguida de testes com utilizadores para identificar problemas de usabilidade, desempenho e clareza funcional.
 
+\section{Migração Tecnológica}
 
+Foi realizada a migração da linguagem de programação Java para Kotlin, com o objetivo de melhorar a legibilidade do código, facilitar a manutenção e otimizar o desempenho da aplicação. Esta transição permitiu uma integração mais eficiente com o Android Studio e com a base de dados Firebase.
+
+\newpage
+\section{Reestruturação da Base de Dados}
+
+A base de dados Firebase foi reorganizada em coleções específicas:
+
+\begin{itemize}
+    \item \texttt{codigo\_barras}
+    \item \texttt{reciclagens}
+    \item \texttt{users}
+\end{itemize}
+
+Foram corrigidos problemas de estrutura e melhorada a ligação entre os dados das reciclagens e os utilizadores.
+
+\section{Funcionalidades implementadas}
+
+\begin{itemize}
+    \item Autenticação de utilizadores e administradores.
+    \item Registo de reciclagens por três métodos: código de barras, reconhecimento de objeto e inserção manual.
+    \item Cálculo automático do impacto ambiental (CO\textsubscript{2}, energia e petróleo).
+    \item Visualização e validação de reciclagens por parte do administrador.
+\end{itemize}
+
+\section{Interface Gráfica}
+Foram criados novos layouts para login, registo e páginas de reciclagem. A interface do administrador passou a incluir botões para validação e adição de códigos de barras.
+
+\section{Testes e Validação}
+A aplicação foi testada com 26 utilizadores (alunos e funcionários), tendo sido recolhidos dados quantitativos e qualitativos que permitiram melhorias na navegação, design e desempenho.
+
+\section{Limitações Identificadas}
+\begin{itemize}
+    \item Erros de usabilidade e tradução.
+    \item Reconhecimento de objetos com baixa fiabilidade.
+    \item Redundância de imagens na base de dados.
+    \item Dificuldades de integração com versões antigas do sistema operativo Android.
+\end{itemize}
+
+\section{Conclusões e Trabalhos Futuros}
+A validação do projeto foi considerada um sucesso, com a maioria dos utilizadores a relatar uma experiência positiva. Para o futuro, recomenda-se a continuação da otimização da aplicação, bem como a adição de novas funcionalidades com base no feedback dos utilizadores.
 
