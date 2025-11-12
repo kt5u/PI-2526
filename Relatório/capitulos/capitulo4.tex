@@ -1,0 +1,44 @@
+\chapter{Ano Letivo 2024/2025}
+\label{cap4}
+
+\section{Reestruturação Profunda da Base de Dados}
+Foi criada uma nova coleção estruturada (\texttt{codigos\_barras\_v2}) para resolver problemas de redundância. As imagens passaram a estar associadas ao código de barras e não a cada reciclagem individual. Foram adicionados mais de 1000 produtos à base de dados.
+
+\section{Scripts Python para Filtragem e Imagens}
+\begin{itemize}
+    \item Script para filtrar produtos portugueses com código de barras iniciado em 560.
+    \item Script para download automático de imagens dos produtos.
+    \item Inserção dos dados e imagens na base de dados via FireFoo.
+\end{itemize}
+
+\section{Cálculos Ambientais Cientificamente Validados}
+Os valores de emissões de CO\textsubscript{2}, energia e petróleo foram ajustados com base em fontes científicas como PlasticEurope, EPA e DOE. O cálculo passou a considerar o peso médio dos objetos reciclados em função da sua capacidade.
+
+\section{Reformulação do Registo de Reciclagens}
+\begin{itemize}
+    \item Integração direta com a nova coleção de produtos.
+    \item Desativação do reconhecimento por IA.
+    \item Novo fluxo de registo com sugestão de produto caso não exista na base de dados.
+\end{itemize}
+
+\section{Interface Gráfica Modernizada}
+\begin{itemize}
+    \item Página principal redesenhada para utilizadores e administradores.
+    \item Menus de navegação adicionados.
+    \item Login e registo com opção de ver password.
+    \item Correções visuais e uniformização do tema.
+\end{itemize}
+
+\section{Melhorias Técnicas}
+\begin{itemize}
+    \item Código Kotlin para atualização automática das imagens dos produtos.
+    \item Scripts para envio dos novos valores de emissões.
+    \item Ajustes na lógica de navegação com \texttt{nav\_graph} e \texttt{fragments}.
+\end{itemize}
+
+\section{Trabalhos Futuros Planeados}
+\begin{itemize}
+    \item Métricas mais detalhadas (litros, mililitros, kg, g).
+    \item Unificação das páginas de registo de produto e reciclagem.
+    \item Sistema de recompensas com ranking de utilizadores e partilha em redes sociais.
+\end{itemize}

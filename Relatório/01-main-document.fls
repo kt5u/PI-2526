@@ -560,6 +560,10 @@ INPUT ./capitulos/capitulo2.tex
 INPUT /home/denis/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
 INPUT ./capitulos/capitulo3.tex
 INPUT ./capitulos/capitulo3.tex
+INPUT ./capitulos/capitulo4.tex
+INPUT ./capitulos/capitulo4.tex
+INPUT ./capitulos/capitulo5.tex
+INPUT ./capitulos/capitulo5.tex
 OUTPUT 01-main-document.toc
 OUTPUT 01-main-document.lof
 OUTPUT 01-main-document.lot
