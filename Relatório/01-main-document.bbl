@@ -1,0 +1,343 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{book:Brooks1995}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ee6a7930ad06cde16b90f8dcbea7cf7}{%
+           family={Brooks},
+           familyi={B\bibinitperiod},
+           given={Frederick\bibnamedelima P.},
+           giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Longman Publishing Co., Inc.}%
+      }
+      \strng{namehash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{fullhash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{fullhashraw}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{bibnamehash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{authorbibnamehash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{authornamehash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{authorfullhash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{authorfullhashraw}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Few books on software project management have been as influential and timeless as The Mythical Man-Month. With a blend of software engineering facts and thought-provoking opinions, Fred Brooks offers insight for anyone managing complex projects. These essays draw from his experience as project manager for the IBM System/360 computer family and then for OS/360, its massive software system. Now, 20 years after the initial publication of his book, Brooks has revisited his original ideas and added new thoughts and advice, both for readers already familiar with his work and for readers discovering it for the first time.The added chapters contain (1) a crisp condensation of all the propositions asserted in the original book, including Brooks' central argument in The Mythical Man-Month: that large programming projects suffer management problems different from small ones due to the division of labor; that the conceptual integrity of the product is therefore critical; and that it is difficult but possible to achieve this unity; (2) Brooks' view of these propositions a generation later; (3) a reprint of his classic 1986 paper "No Silver Bullet"; and (4) today's thoughts on the 1986 assertion, "There will be no silver bullet within ten years." 0201835959B04262002}
+      \field{isbn}{0201835959}
+      \field{title}{The mythical man-month (anniversary ed.)}
+      \field{year}{1995}
+    \endentry
+    \entry{Chen1976}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f90f0ad8baeb533067f29a90c289ca6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima Pin-Shan},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{fullhash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{fullhashraw}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{bibnamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorbibnamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authornamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorfullhash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorfullhashraw}{9f90f0ad8baeb533067f29a90c289ca6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0362-5915}
+      \field{journaltitle}{ACM Trans. Database Syst.}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{The entity-relationship model --- toward a unified view of data}
+      \field{volume}{1}
+      \field{year}{1976}
+      \field{pages}{9\bibrangedash 36}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1145/320434.320440
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/320434.320440
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/320434.320440
+      \endverb
+      \keyw{Data Base Task Group,data definition and manipulation,data integrity and consistency,data models,database design,entity set model,entity-relationship model,logigcal view of data,network model,relational model,semantics of data}
+    \endentry
+    \entry{AndroidDoc}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://developer.android.com/docs}}
+      \field{note}{Consultado em 2020/11/20}
+      \field{title}{Documentation for app developers}
+      \field{year}{2020}
+    \endentry
+    \entry{Quicksort1962}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6facc8397f631d3ef01dd70be993640}{%
+           family={Hoare},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi A.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{fullhash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{fullhashraw}{d6facc8397f631d3ef01dd70be993640}
+      \strng{bibnamehash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{authorbibnamehash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{authornamehash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{authorfullhash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{authorfullhashraw}{d6facc8397f631d3ef01dd70be993640}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A description is given of a new method of sorting in the random-access store of a computer. The method compares very favourably with other known methods in speed, in economy of storage, and in ease of programming. Certain refinements of the method, which may be useful in the optimization of inner loops, are described in the second part of the paper.}
+      \field{issn}{0010-4620}
+      \field{journaltitle}{The Computer Journal}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Quicksort}
+      \field{volume}{5}
+      \field{year}{1962}
+      \field{pages}{10\bibrangedash 16}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/comjnl/5.1.10
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/comjnl/article-pdf/5/1/10/1111445/050010.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/comjnl/5.1.10
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/comjnl/5.1.10
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{book:Brooks1995}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ee6a7930ad06cde16b90f8dcbea7cf7}{%
+           family={Brooks},
+           familyi={B\bibinitperiod},
+           given={Frederick\bibnamedelima P.},
+           giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Longman Publishing Co., Inc.}%
+      }
+      \strng{namehash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{fullhash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{fullhashraw}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{bibnamehash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{authorbibnamehash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{authornamehash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{authorfullhash}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \strng{authorfullhashraw}{4ee6a7930ad06cde16b90f8dcbea7cf7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Few books on software project management have been as influential and timeless as The Mythical Man-Month. With a blend of software engineering facts and thought-provoking opinions, Fred Brooks offers insight for anyone managing complex projects. These essays draw from his experience as project manager for the IBM System/360 computer family and then for OS/360, its massive software system. Now, 20 years after the initial publication of his book, Brooks has revisited his original ideas and added new thoughts and advice, both for readers already familiar with his work and for readers discovering it for the first time.The added chapters contain (1) a crisp condensation of all the propositions asserted in the original book, including Brooks' central argument in The Mythical Man-Month: that large programming projects suffer management problems different from small ones due to the division of labor; that the conceptual integrity of the product is therefore critical; and that it is difficult but possible to achieve this unity; (2) Brooks' view of these propositions a generation later; (3) a reprint of his classic 1986 paper "No Silver Bullet"; and (4) today's thoughts on the 1986 assertion, "There will be no silver bullet within ten years." 0201835959B04262002}
+      \field{isbn}{0201835959}
+      \field{title}{The mythical man-month (anniversary ed.)}
+      \field{year}{1995}
+    \endentry
+    \entry{Chen1976}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f90f0ad8baeb533067f29a90c289ca6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima Pin-Shan},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{fullhash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{fullhashraw}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{bibnamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorbibnamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authornamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorfullhash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorfullhashraw}{9f90f0ad8baeb533067f29a90c289ca6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0362-5915}
+      \field{journaltitle}{ACM Trans. Database Syst.}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{The entity-relationship model --- toward a unified view of data}
+      \field{volume}{1}
+      \field{year}{1976}
+      \field{pages}{9\bibrangedash 36}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1145/320434.320440
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/320434.320440
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/320434.320440
+      \endverb
+      \keyw{Data Base Task Group,data definition and manipulation,data integrity and consistency,data models,database design,entity set model,entity-relationship model,logigcal view of data,network model,relational model,semantics of data}
+    \endentry
+    \entry{AndroidDoc}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://developer.android.com/docs}}
+      \field{note}{Consultado em 2020/11/20}
+      \field{title}{Documentation for app developers}
+      \field{year}{2020}
+    \endentry
+    \entry{Quicksort1962}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6facc8397f631d3ef01dd70be993640}{%
+           family={Hoare},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi A.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{fullhash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{fullhashraw}{d6facc8397f631d3ef01dd70be993640}
+      \strng{bibnamehash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{authorbibnamehash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{authornamehash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{authorfullhash}{d6facc8397f631d3ef01dd70be993640}
+      \strng{authorfullhashraw}{d6facc8397f631d3ef01dd70be993640}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A description is given of a new method of sorting in the random-access store of a computer. The method compares very favourably with other known methods in speed, in economy of storage, and in ease of programming. Certain refinements of the method, which may be useful in the optimization of inner loops, are described in the second part of the paper.}
+      \field{issn}{0010-4620}
+      \field{journaltitle}{The Computer Journal}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Quicksort}
+      \field{volume}{5}
+      \field{year}{1962}
+      \field{pages}{10\bibrangedash 16}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/comjnl/5.1.10
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/comjnl/article-pdf/5/1/10/1111445/050010.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/comjnl/5.1.10
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/comjnl/5.1.10
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
