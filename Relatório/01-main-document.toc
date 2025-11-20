@@ -6,29 +6,32 @@
 \contentsline {chapter}{\chapternumberline {2}Ano Letivo 2022/2023}{8}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Continuidade e Validação do Projeto}{8}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Migração Tecnológica}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Reestruturação da Base de Dados}{9}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Reconhecimento Automático de Objetos}{9}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Funcionalidades Implementadas}{9}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Interface Gráfica}{10}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Testes e Validação}{10}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Limitações Identificadas}{10}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Conclusões e Trabalhos Futuros}{10}{section.2.9}%
-\contentsline {chapter}{\chapternumberline {3}Ano Letivo 2023/2024}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Expansão da Base de Dados}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Melhorias na Interface do Utilizador}{11}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Interface do Administrador}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Sistema de Recompensas}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Reconhecimento de Objetos}{12}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Testes Internos}{12}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Limitações Persistentes}{12}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Conclusão}{13}{section.3.8}%
-\contentsline {chapter}{\chapternumberline {4}Ano Letivo 2024/2025}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Reestruturação Profunda da Base de Dados}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Scripts Python para Filtragem e Imagens}{14}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Cálculos Ambientais Cientificamente Validados}{15}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Reformulação do Registo de Reciclagens}{15}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Interface Gráfica Modernizada}{15}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Melhorias Técnicas}{15}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Trabalhos Futuros Planeados}{16}{section.4.7}%
-\contentsline {chapter}{\chapternumberline {5}Conclusão}{17}{chapter.5}%
+\contentsline {section}{\numberline {2.3}Alterações na Base de Dados}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Alterações Implementadas}{9}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Reconhecimento Automático de Objetos}{9}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Adição de Códigos de Barras}{10}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Responsividade do Menu e Interfaces}{11}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Testes e Validação}{12}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Trabalhos Futuros}{13}{section.2.6}%
+\contentsline {chapter}{\chapternumberline {3}Ano Letivo 2023/2024}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Expansão da Base de Dados}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Melhorias na Interface do Utilizador}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Interface do Administrador}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Sistema de Recompensas}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Reconhecimento de Objetos}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Testes Internos}{15}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Limitações Persistentes}{15}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Conclusão}{16}{section.3.8}%
+\contentsline {chapter}{\chapternumberline {4}Ano Letivo 2024/2025}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Reestruturação Profunda da Base de Dados}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Scripts Python para Filtragem e Imagens}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Cálculos Ambientais Cientificamente Validados}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Reformulação do Registo de Reciclagens}{18}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Interface Gráfica Modernizada}{18}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Melhorias Técnicas}{18}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Trabalhos Futuros Planeados}{19}{section.4.7}%
+\contentsline {chapter}{\chapternumberline {5}Testes Funcionais das Aplicações}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Testes das Diferentes Versões}{20}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Diferenças e Melhorias entre as Aplicações de 2023/2024 e 2024/2025}{20}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {6}Conclusão}{21}{chapter.6}%
 \contentsfinish 

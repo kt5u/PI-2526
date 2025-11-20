@@ -82,7 +82,7 @@ author: João Paulo Barros (joao.barros@ipbeja.pt)
 \RequirePackage{titletoc}
 
 % --- Language-dependent settings (including babel loading) ---
-\DeclareRobustCommand{\pt-en}[2]{%
+\DeclareRobustCommand{\pt}[2]{%
   \ifx\SelectedLang\LangOptPT
     #1%
   \else
