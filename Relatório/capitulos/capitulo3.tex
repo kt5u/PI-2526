@@ -1,46 +1,47 @@
 \chapter{Ano Letivo 2023/2024}
 \label{cap3}
+\section{Análise inicial do projeto anterior(22/23)}
+O grupo de alunos inciou com a análise do relatório e da aplicação desenvolvida no ano letivo anterior (22/23). Após uma avaliação foram verificadas algumas limitações e erros, o sistema continha 2 utilizadores, o reciclador que estão íncluidos estudantes, docentes, funcionários do IpBeja e o administrador que é o responsável pela gestão da aplicação mas não tinha assim tantas funções, foram identificados os casos de uso tanto do reciclador como do administrador.
+\subsection{Limitações do Sistema}
+O sistema apresentava várias limitações. As estatísticas geradas eram ineficazes, pois baseavam-se apenas no tipo de material reciclado e não no volume reciclado — um garrafão era contabilizado da mesma forma que uma simples garrafa de plástico. Além disso, o sistema de gestão do administrador não permitia gerir os códigos de barras sugeridos pelos recicladores.
+Na área de administração, a página de estatísticas também não permitia deixar filtros em branco para visualizar dados de categorias específicas. Verificou-se ainda que o sistema de reconhecimento de objetos apresentava uma taxa de sucesso reduzida, uma vez que não conseguia detetar o volume dos objetos e, por vezes, classificava objetos de plástico como sendo de vidro, resultando em erros.
+Foram igualmente identificadas funcionalidades redundantes na interface, como o botão “voltar atrás”, e a apresentação de informações gerais sobre reciclagem em vez de dados específicos sobre a reciclagem realizada pelo utilizador. O sistema apresentava também diversos erros gramaticais.
+\subsection{Sugestões de melhoria}
+Foi primeiramente realizada uma análise de sistemas semelhantes no mercado como a aplicação "Acerta e Recicla" e foram registadas possiveis melhorias, a mudança do nome do botão "A que equivalem" para "Referências" para uma melhor compreensão da sua função, a remoção de botões de navegação redudantes como o "Voltar Atrás", implementação da interface do administrador com a gestão dos códigos de barras sugeridos pelos recicaldores, mudança do sistema de reconhecimento de objetos por frames para vídeo, implementação de um sistema de recompensas para incentivar a participação dos utilizadores, entre outras melhorias.
+\subsection{Criação de novos casos de Uso}
+O grupo optou por desenvolver novos casos de uso para o sistema, incluindo a visualização das recompensas disponíveis, consulta detalhada de cada recompensa, partilha de conquistas nas redes sociais, adição e validação de códigos de barras por parte do administrador e visualização dos totais de reciclagem na página de estatísticas de poupança.
+\subsection{Análise da base de dados para reconhecimento de código de barras}
+Os alunos realizaram uma análise da base de dados para identificar a melhor forma de aumentar o número de códigos de barras. Depois de pesquisarem em datasets públicos, decidiram manter o reconhecimento de códigos de barras através de frames, devido à complexidade de implementação, à falta de tempo para o desenvolvimento do projeto e à ausência de um administrador dedicado para gerir os códigos sugeridos pelos recicladores em tempo integral.
+Estudaram os códigos de barras para compreender o seu significado e definiram critérios para a seleção da base de dados, incluindo a associação do código ao objeto, o nome ou descrição do objeto, a capacidade e o tipo de material do objeto. Como resultado, escolheram a base de dados OpenFoodFacts, uma plataforma open source com mais de um milhão de produtos, que satisfazia todos os critérios definidos.
 
-\section{Expansão da Base de Dados}
-Executou-se um processo de ETL (Extração, Transformação e Carregamento) com dados de produtos portugueses do OpenFoodFacts. Usaram-se scripts em \texttt{Python} e \texttt{Node.js} para filtrar, transformar e carregar os dados no Firebase. Introduziu-se o atributo \texttt{isActive} para gerir os códigos de barras.
 
-\section{Melhorias na Interface do Utilizador}
-\begin{itemize}
-    \item Remoção de botões redundantes, como ``Voltar Atrás''.
-    \item O botão ``A Que Equivalem'' passou a ``Referências'', tornando a função mais clara.
-    \item Correções linguísticas e simplificação da navegação.
-\end{itemize}
+\section{Implementação}
+Os alunos realizaram a manipulação do código necessária para implementar as melhorias sugeridas, bem como utilizaram programas externos para efetuar o backup e o carregamento de dados na base de dados. Essas implementações foram realizadas utilizando o Android Studio e a ferramenta de controlo de versões GitHub. Para o backup, recorreram ao Node.js, enquanto para a transformação dos dados do dataset OpenFoodFacts utilizaram o Excel e scripts em Python.
+\subsection{Carregamento em lote da base de dados em código de barras}
+Os alunos realizaram uma pesquisa na API do OpenFoodFacts, filtrando exclusivamente produtos portugueses. Em seguida, exportaram os dados para o Excel, onde procederam à limpeza e formatação, removendo colunas desnecessárias e corrigindo erros com o auxílio de um script em Python. Posteriormente, utilizaram o Node.js para efetuar um backup da base de dados e, com o suporte da ferramenta FireFoo, carregaram os dados em lote para a base de dados.
+\subsection{Melhorias na Interface}
+Foram implementadas várias melhorias nas interfaces destinadas ao reciclador e ao administrador. Na interface do reciclador, destacam-se a remoção do botão "Voltar atrás" e a alteração do nome do botão "A que equivalem" para "Referências". Quanto à interface do administrador, as pesquisas de estatísticas foram redesenhadas, permitindo a seleção personalizada dos filtros pretendidos. Além disso, foi criada uma página inicial exclusiva para o administrador e desenvolvida uma interface para a gestão dos códigos de barras sugeridos pelos recicladores, assim como a funcionalidade de adição manual de códigos por parte do administrador.
 
-\section{Interface do Administrador}
-\begin{itemize}
-    \item Redesenho da página de estatísticas, com filtros mais flexíveis.
-    \item Criação de menus e botões para validar e adicionar códigos de barras.
-    \item Possibilidade de ver dados gerais sem necessidade de selecionar filtros.
-\end{itemize}
+Algumas Interfaces melhoradas / adicionadas:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{figuras/validacao.png}
+    \caption{Interface de validação de códigos de barras sugeridos pelo reciclador}
+    \label{fig:interface1}
+\end{figure}    
 
-\section{Sistema de Recompensas}
-Introduziu-se o conceito de recompensas para incentivar a participação dos utilizadores. Foram criadas interfaces para:
-\begin{itemize}
-    \item Visualização de recompensas.
-    \item Detalhes de cada recompensa.
-    \item Partilha de conquistas nas redes sociais.
-\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{figuras/PagInAdmin.png}
+    \caption{Interface de estatísticas do administrador com filtros personalizados}
+    \label{fig:interface2}
+\end{figure}
 
-\section{Reconhecimento de Objetos}
-Verificou-se uma taxa de sucesso baixa no reconhecimento por imagem estática. A equipa sugeriu a substituição por reconhecimento em vídeo em versões futuras.
 
-\section{Testes Internos}
-Realizaram-se testes internos que evidenciaram diferenças face a resultados anteriores, sobretudo na taxa de sucesso do reconhecimento de objetos. As melhorias foram aplicadas com base nesses testes.
 
-\section{Limitações Persistentes}
-\begin{itemize}
-    \item Estatísticas ambientais ainda pouco detalhadas (sem considerar volume).
-    \item Redundâncias na base de dados.
-    \item Sistema de recompensas ainda em fase inicial, com poucas opções.
-    \item Dependência de ligação à internet para acesso a todas as funcionalidades.
-\end{itemize}
 
-\section{Conclusão}
-O ano letivo de 2023/2024 trouxe desafios e oportunidades de melhoria. Agradece-se a todos os que contribuíram para o desenvolvimento e a evolução contínua deste projeto.
+\section{Conclusão e trabalho futuro}
+Os alunos chegaram à conclusão de que as modificações e adições pertinentes à aplicação foram realizadas, cumprindo quase todos os pontos propostos no início do projeto. Ficou apenas por implementar o sistema de recompensas, devido à sua complexidade e ao tempo limitado disponível para o desenvolvimento.
 
+Para trabalhos futuros, sugerem a implementação do sistema de recompensas com integração nas redes sociais, como o Facebook e o Twitter, bem como a funcionalidade para que a lista de códigos de barras na interface "Validação de código de barras" seja atualizada automaticamente.
 
