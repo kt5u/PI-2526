@@ -49,4 +49,9 @@
 \contentsline {section}{\numberline {7.2}Escala de resposta}{43}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Modelo}{43}{section.7.3}%
 \contentsline {chapter}{\chapternumberline {8}Conclusão}{47}{chapter.8}%
+\contentsline {chapter}{\chapternumberline {9}Caracterização do Ambiente, Objetivos de Amostragem e Locais de Teste}{48}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Caracterização do ambiente digital}{48}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Número e perfil dos utilizadores}{49}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Objetivos de amostragem}{49}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Local de realização dos testes}{50}{section.9.4}%
 \contentsfinish 
