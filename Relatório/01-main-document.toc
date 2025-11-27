@@ -39,19 +39,19 @@
 \contentsline {subsection}{\numberline {5.3.3}Sugestão de Código pelo Reciclador}{33}{subsection.5.3.3}%
 \contentsline {subsection}{\numberline {5.3.4}Aceitação de Códigos de Barras pelo Administrador}{37}{subsection.5.3.4}%
 \contentsline {section}{\numberline {5.4}Conclusão Final da Análise das Versões}{39}{section.5.4}%
-\contentsline {chapter}{\chapternumberline {6}Questionário de Satisfação do Utilizador da ReciclaApp}{40}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Objetivo}{40}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Escala de Resposta}{40}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Instrumentos Utilizados}{41}{section.6.3}%
-\contentsline {section}{\numberline {6.4}URL do Questionário}{41}{section.6.4}%
-\contentsline {chapter}{\chapternumberline {7}Questionário de Avaliação da Aplicação ReciclaApp}{42}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Objetivo}{42}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Escala de resposta}{43}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Modelo}{43}{section.7.3}%
-\contentsline {chapter}{\chapternumberline {8}Conclusão}{47}{chapter.8}%
-\contentsline {chapter}{\chapternumberline {9}Caracterização do Ambiente, Objetivos de Amostragem e Locais de Teste}{48}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Caracterização do ambiente digital}{48}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Número e perfil dos utilizadores}{49}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Objetivos de amostragem}{49}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Local de realização dos testes}{50}{section.9.4}%
+\contentsline {chapter}{\chapternumberline {6}Conclusão}{40}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {7}Caracterização do Ambiente, Objetivos de Amostragem e Locais de Teste}{41}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Caracterização do ambiente digital}{41}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Número e perfil dos utilizadores}{42}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Objetivos de amostragem}{42}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Local de realização dos testes}{43}{section.7.4}%
+\contentsline {chapter}{\chapternumberline {8}Questionário de Satisfação do Utilizador da ReciclaApp}{44}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Objetivo}{44}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Escala de Resposta}{44}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Instrumentos Utilizados}{45}{section.8.3}%
+\contentsline {section}{\numberline {8.4}URL do Questionário}{45}{section.8.4}%
+\contentsline {chapter}{\chapternumberline {9}Questionário de Avaliação da Aplicação ReciclaApp}{46}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Objetivo}{46}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Escala de resposta}{47}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Modelo}{47}{section.9.3}%
 \contentsfinish 
