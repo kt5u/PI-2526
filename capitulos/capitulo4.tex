@@ -1,0 +1,42 @@
+\chapter{Ano Letivo 2024/2025}
+\label{cap4}
+\section{Análise do projeto anterior(23/24)}
+Os alunos iniciaram a análise do relatório e da aplicação desenvolvidada no ano letivo anterior (23/24). Analisaram os casos de Uso implementados, a base de dados e tanto as funcionalidades como as interfaces da aplicação.
+Retiraram algumas conclusões sobre o trabalho realizado principalmente no que diz respeito ás interfaces que consideraram que poderiam ser melhoradas em termos de usabilidade e experiência do utilizador.
+\section{Sugestões de melhoria e implementação}
+Os alunos sugeriram algumas melhorias e procederam para a sua implementação.
+Como a otimização da base de dados FireStore, inserção de scripts para a filtragem e obtenção de imagens dos produtos premitindo assim uma expansao significastiva da base de dados.
+Alterações na interface da página principal e no sitema de navegação da aplicação tornarndo---a mais intuitiva e simples de utilizar, melhorias no calculo das emissoes e na energia poupada com a reciclagem.  
+\subsection{Nova implemntação na base de dados FireStore}
+Na versão anterior da base de dados (23/24), as imagens dos códigos de barras eram armazenadas em cada registo de reciclagem, o que fazia com que cada registo tivesse uma foto diferente do produto reciclado. Para resolver este problema, foi criada uma nova coleção na base de dados, associando a imagem ao código de barras do produto e não ao registo de reciclagem, garantindo assim que cada código de barras possui apenas uma imagem associada.
+
+Além disso, foi desenvolvido um script em Python que filtra os produtos da base de dados OpenFoodFacts e obtém as imagens dos produtos através da API disponibilizada pela plataforma, com foco nos produtos portugueses.
+
+\subsection{Alterações no valores de emissões}
+Os alunos encontraram na análise que os valores de emissões associados a cada tipo de material reciclado não estavam explicitados no relatório anterior (23/24). Decidiram, portanto, atualizá-los com base em fontes mais recentes, recorrendo a sites de organizações confiáveis. Para maior precisão, começaram a utilizar valores médios para os materiais reciclados, reconhecendo que, por exemplo, uma garrafa de 1,5 litros pode não ter sempre o mesmo peso.
+\subsection{Melhorias na Interface e Navegação}
+Foram realizadas melhorias na interface em ajuste a experiência do utilizador, nomeadamente no registo da reciclagem, em que os alunos optaram por retirar o reconhecimento automático dos objetos, por considerarem pouco fiável. Assim o utilizador tira a foto ao produto e insere manualmente o código de barras, fazendo o registo todo manualmente como podemos ver na figura a baixo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{figuras/registo.png}
+    \caption{Interface de registo de reciclagem}
+    \label{fig:interfaceRegisto}
+\end{figure}
+
+Foram efetuadas melhorias na página principal da aplicação, tanto na área do administrador como na do reciclador. O ecrã dedicado apenas à navegação foi removido; agora, após o login, o reciclador é direcionado para uma página que apresenta a lista das suas reciclagens e os totais de emissões poupadas. Por sua vez, o administrador é encaminhado diretamente para a página de gestão dos pedidos de inserção de códigos de barras sugeridos pelos recicladores.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/inicial2425.png}
+    \caption{Interface da página principal do reciclador}
+    \label{fig:interfacePrincipal}
+\end{figure}
+
+Foram também efetuadas melhorias na navegação da aplicação, incluindo a implementação de um menu inferior com as principais funcionalidades, tornando o percurso do utilizador mais intuitivo e simples. Além disso, foram realizadas alterações no tema da aplicação, mantendo apenas o tema claro (lightTheme), e passou a ser possível visualizar a password no ecrã de login.
+
+
+\section{Conclusão e trabalhos futuros}
+Os alunos concluíram que ainda há melhorias a realizar para tornar a aplicação mais completa e otimizada. Realizaram melhorias na base de dados Firestore, procurando otimizar ao máximo a sua estrutura, além de aprimoramentos na interface e na navegação, tornando a aplicação mais intuitiva e fácil de usar. Também atualizaram os valores das emissões poupadas com a reciclagem.
+
+Para trabalhos futuros, sugerem a implementação de métricas adicionais na base de dados, como litros, mililitros e quilogramas reciclados, a criação de um sistema de recompensas para incentivar a participação dos utilizadores, a unificação das páginas de registo, a integração de ferramentas que possibilitem o reconhecimento automático de objetos com maior precisão e a melhoria geral das interfaces.
