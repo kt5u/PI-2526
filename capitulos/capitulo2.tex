@@ -1,82 +1,319 @@
-\chapter{Ano Letivo 2022/2023}
+\chapter{Análise de trabalhos dos anos anteriores}
 \label{cap2}
 
-\section{Análise inicial do Projeto Anterior(21/22)}
+% ===================================================================
+% Ano Letivo 2021/2022
+% ===================================================================
+\section{Ano Letivo 2021/2022}
 
+% ---------------------------------------------------------------
+% Subsec: Análise inicial do Projeto Anterior (21/22)
+% ---------------------------------------------------------------
+\subsection{Análise inicial do Projeto Anterior (21/22)}
 Foi realizado pelo grupo de alunos a avaliação da continuidade do projeto, começando pela análise detalhada do relatório e da aplicação do ano (21/22). Com a consequente validação, passaram para a fase de migração, aprimoramento e implementação de novas funcionalidades e melhorias de interface.
 
-\section{Migração Tecnológica}
-
+% ---------------------------------------------------------------
+% Subsec: Migração Tecnológica
+% ---------------------------------------------------------------
+\subsection{Migração Tecnológica}
 O código apresentado no relatório anterior constatava que o projeto (21/22) havia sido realizado na linguagem \texttt{Java}, e os alunos decidiram migrar para a linguagem \texttt{Kotlin} devido às suas vantagens, como a simplificação do código e a obtenção de uma estrutura mais simples e eficiente. A migração foi realizada com o auxílio do Android Studio, que possui uma ferramenta integrada para converter código Java em Kotlin. Após essa tentativa inicial de conversão, foi necessário realizar ajustes manuais para garantir que o código convertido funcionasse corretamente, incluindo a criação de fragmentos para cada interface e a diferenciação entre as classes de interface para utilizadores comuns e administradores.
 
 \newpage
-\section{Alterações na Base de Dados}
-O grupo teve que realizar uma nova ligação á base de dados Firebase (Goob) e foi decidido manter a base de dados do projeto anterior devido a facilidade de integrações entre a firebase e Android, bem como a quantidade de dados já existentes relativos ao código de barras já existentes. A estrutura da base de dados foi mantida mas não foram utilizadas algumas coleções e foram adicionadas novas coleções para suportar as novas funcionalidades da aplicação.
 
-\section{Alterações Implementadas}
-Foram implementadas algumas alteraçoes e melhorias na aplicação, nomeadamente:
-\subsection{Reconhecimento Automático de Objetos}
-O grupo verificou que o reconhecimento de objetos apresentava alguns problemas, pois a aplicação não conseguia identificar corretamente certos objetos. Isso acontecia porque o sistema processava o código de barras apenas após a fotografia ser tirada, o que, por vezes, levava à necessidade de tirar várias fotos. Para resolver esse problema, foi implementado o sistema de ML Kit da Google, que permite o reconhecimento automático de objetos em tempo real através da câmara do telemóvel, utilizando a API CameraView. Para implementar essa API, foi utilizado um sistema de processamento de frames, possibilitando o uso do scanner em todos os frames capturados pela câmara.
+% ---------------------------------------------------------------
+% Subsec: Alterações na Base de Dados
+% ---------------------------------------------------------------
+\subsection{Alterações na Base de Dados}
+O grupo teve que realizar uma nova ligação à base de dados Firebase (Google) e foi decidido manter a base de dados do projeto anterior devido à facilidade de integrações entre a Firebase e Android, bem como a quantidade de dados já existentes relativos aos códigos de barras. A estrutura da base de dados foi mantida, mas não foram utilizadas algumas coleções e foram adicionadas novas coleções para suportar as novas funcionalidades da aplicação.
+
+% ---------------------------------------------------------------
+% Subsec: Alterações Implementadas
+% ---------------------------------------------------------------
+\subsection{Alterações Implementadas}
+Foram implementadas algumas alterações e melhorias na aplicação, nomeadamente:
+
+% ---------------------------
+% Subsubsec: Reconhecimento Automático de Objetos
+% ---------------------------
+\subsubsection{Reconhecimento Automático de Objetos}
+O grupo verificou que o reconhecimento de objetos apresentava alguns problemas, pois a aplicação não conseguia identificar corretamente certos objetos. Isso acontecia porque o sistema processava o código de barras apenas após a fotografia ser tirada, o que, por vezes, levava à necessidade de tirar várias fotos. Para resolver esse problema, foi implementado o sistema de ML Kit da Google, que permite o reconhecimento automático de objetos em tempo real através da câmara do telemóvel, utilizando a API \texttt{CameraView}. Para implementar essa API, foi utilizado um sistema de processamento de \textit{frames}, possibilitando o uso do \textit{scanner} em todos os \textit{frames} capturados pela câmara.
+
 \newpage
 
-\subsection{Adição de Códigos de Barras}
-No início do processo, o grupo optou por manter a funcionalidade de adicionar códigos de barras pelos utilizadores, mas verificou-se que o sistema ficaria suscetível a erros que estes poderiam cometer, como a inserção de dados incorretos relativos ao objeto. Com a sugestão dos docentes orientadores, o grupo decidiu implementar um sistema de validação por parte do administrador, onde os utilizadores poderiam adicionar os dados referentes ao código de barras e o administrador teria a possibilidade de validar ou rejeitar o código. Para isso, foi criada uma flag na base de dados chamada "isActive", que por defeito é falsa, passando a verdadeira quando o administrador valida o código de barras.
+% ---------------------------
+% Subsubsec: Adição de Códigos de Barras
+% ---------------------------
+\subsubsection{Adição de Códigos de Barras}
+No início do processo, o grupo optou por manter a funcionalidade de adicionar códigos de barras pelos utilizadores, mas verificou-se que o sistema ficaria suscetível a erros que estes poderiam cometer, como a inserção de dados incorretos relativos ao objeto. Com a sugestão dos docentes orientadores, o grupo decidiu implementar um sistema de validação por parte do administrador, onde os utilizadores poderiam adicionar os dados referentes ao código de barras e o administrador teria a possibilidade de validar ou rejeitar o código. Para isso, foi criada uma \textit{flag} na base de dados chamada \texttt{isActive}, que por defeito é falsa, passando a verdadeira quando o administrador valida o código de barras.
 
 \clearpage
 
+% ---------------------------
+% Figuras: Não reconhecimento e sugestão de códigos de barras
+% ---------------------------
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.2\textwidth]{figuras/NaoRecon.png}
-    \caption{Não Reconhecimento do Código de Barras}
-    \label{fig:codigosDeBarras}
+  \centering
+  \includegraphics[width=0.2\textwidth]{figuras/NaoRecon.png}
+  \caption{Não reconhecimento do código de barras}
+  \label{fig:codigosDeBarras}
 \end{figure}
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.2\textwidth]{figuras/SugestaoBarras.png}
-    \caption{Sugestão de Código de Barras}
-    \label{fig:codigosDeBarras2}
-\end{figure}
-\newpage
-
-\subsection{Responsividade do Menu e Interfaces}
-O grupo tentou resolver alguns problemas de responsividade que existiam em alguns ecrãs mais pequenos e baixas resoluções, alguma parte das interfaces ficavam cortadas ou desajustadas.Foram usados alguns metodos dos layouts do Android como a vertical e horizontal chain para melhorar a responsividade da aplicação.
-Foram realizadas novas melhorias, incluindo a adição da contextualização para o utilizador conseguir entender melhor a sua reciclagem. 
-Também foi melhorada a interface que exibe a percentagem de reciclagem de cada escola, apresentando métricas como a quantidade de objetos reciclados, energia poupada e mais indicadores relevantes.
-Foram tambem alterados os textos informativos sobre o tipos de reciclagem e alguns botões da página inicial para melhorar a experiência do utilizador. 
-
-Exemplo de responsividade / interfaces melhoradas: 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.4\textwidth]{figuras/ResponMelhor.png}
-    \caption{Responsividade Melhorada}
-    \label{fig:responsividade}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.4\textwidth]{figuras/PercentagemEscolas.png}
-    \caption{Interface Percentagem de Reciclagem das Escolas}
-    \label{fig:responsividade2}
+  \centering
+  \includegraphics[width=0.2\textwidth]{figuras/SugestaoBarras.png}
+  \caption{Sugestão de código de barras}
+  \label{fig:codigosDeBarras2}
 \end{figure}
 
 \newpage
 
-\section{Testes e Validação}
+% ---------------------------
+% Subsubsec: Responsividade do Menu e Interfaces
+% ---------------------------
+\subsubsection{Responsividade do Menu e Interfaces}
+O grupo tentou resolver alguns problemas de responsividade que existiam em alguns ecrãs mais pequenos e baixas resoluções; alguma parte das interfaces ficava cortada ou desajustada. Foram usados alguns métodos dos \textit{layouts} do Android, como a \textit{vertical} e \textit{horizontal chain}, para melhorar a responsividade da aplicação.
 
-Foram realizados testes funcionais e de usabilidade para validar as altereações implementadas.
+Foram realizadas novas melhorias, incluindo a adição da contextualização para o utilizador conseguir entender melhor a sua reciclagem. Também foi melhorada a interface que exibe a percentagem de reciclagem de cada escola, apresentando métricas como a quantidade de objetos reciclados, energia poupada e mais indicadores relevantes. Foram também alterados os textos informativos sobre os tipos de reciclagem e alguns botões da página inicial para melhorar a experiência do utilizador.
 
-Documentos das tarefas a realizar:
+\paragraph{Exemplos de responsividade e interfaces melhoradas:}
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{figuras/testes.png}
-    \caption{Documentos de Testes}
-    \label{fig:testes}
+  \centering
+  \includegraphics[width=0.4\textwidth]{figuras/ResponMelhor.png}
+  \caption{Responsividade melhorada}
+  \label{fig:responsividade}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{figuras/PercentagemEscolas.png}
+  \caption{Interface percentagem de reciclagem das escolas}
+  \label{fig:responsividade2}
+\end{figure}
+
+\newpage
+
+% ---------------------------------------------------------------
+% Subsec: Testes e Validação
+% ---------------------------------------------------------------
+\subsection{Testes e Validação}
+Foram realizados testes funcionais e de usabilidade para validar as alterações implementadas.
+
+\paragraph{Documentos das tarefas a realizar:}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{figuras/testes.png}
+  \caption{Documentos de testes}
+  \label{fig:testes}
 \end{figure}
 
 O grupo concluiu que a aplicação está funcional e pronta para ser utilizada pelos utilizadores, tendo a aplicação sido bem recebida pelos utilizadores durante os testes de usabilidade.
-   
-\newpage
-\section{Trabalhos Futuros}
-O grupo sugere que futuros trabalhos possam focar se na implementação da funcionalidade da parte do administrador, que permita a gestão dos código de barras sugeridos pelos utilizadores e podendo ainda ser melhorado o sistema de reconhecimento de objetos.
 
+\newpage
+
+% ---------------------------------------------------------------
+% Subsec: Trabalhos Futuros
+% ---------------------------------------------------------------
+\subsection{Trabalhos Futuros}
+O grupo sugere que futuros trabalhos possam focar-se na implementação da funcionalidade da parte do administrador, que permita a gestão dos códigos de barras sugeridos pelos utilizadores, podendo ainda ser melhorado o sistema de reconhecimento de objetos.
+
+%==========================================================================
+% @section: Ano Letivo 2023/2024
+% @description: Secção principal que detalha as atividades e desenvolvimentos
+%              realizados durante o ciclo académico de 2023/2024.
+%==========================================================================
+\section{Ano Letivo 2023/2024}
+\label{sec:ano2324}
+
+%==========================================================================
+% @subsection: Análise do Projeto Anterior
+% @description: Avaliação crítica das limitações e funcionalidades do 
+%              sistema desenvolvido no ano letivo 2022/2023.
+%==========================================================================
+\subsection{Análise inicial do projeto anterior (22/23)}
+O grupo de alunos iniciou o trabalho com a análise do relatório e da aplicação desenvolvida no ano letivo anterior (2022/2023). Após uma avaliação detalhada, foram verificadas limitações e erros estruturais. O sistema contemplava dois tipos de utilizadores: o \textbf{reciclador} (que incluía estudantes, docentes e funcionários do IPBeja) e o \textbf{administrador}, responsável pela gestão da aplicação, embora com funcionalidades limitadas. Durante esta fase, foram identificados e mapeados os casos de uso para ambos os perfis.
+
+\subsubsection{Limitações do Sistema}
+O sistema apresentava várias lacunas técnicas. As estatísticas geradas eram ineficazes, uma vez que se baseavam apenas no tipo de material reciclado e não no seu volume — por exemplo, um garrafão era contabilizado da mesma forma que uma pequena garrafa de plástico. Além disso, o painel de administração não permitia gerir os códigos de barras sugeridos pelos utilizadores.
+
+Na área administrativa, a página de estatísticas não permitia a aplicação de filtros parciais ou em branco para visualizar dados de categorias específicas. Verificou-se ainda que o sistema de reconhecimento de objetos apresentava uma taxa de sucesso reduzida; não detetava o volume dos objetos e, ocasionalmente, classificava objetos de plástico como sendo de vidro. Foram identificadas redundâncias na interface e uma carência de personalização nos dados de reciclagem apresentados.
+
+\subsubsection{Sugestões de melhoria}
+Foi realizada uma análise comparativa com sistemas de mercado, nomeadamente a aplicação \textit{"Acerta e Recicla"}. Com base neste \textit{benchmarking}, propuseram-se melhorias como: a alteração da designação do botão "A que equivalem" para "Referências"; a remoção de controlos de navegação redundantes; e a implementação de uma interface de gestão de códigos de barras para o administrador. Sugeriu-se ainda a transição do reconhecimento de objetos para processamento de vídeo e a conceção de um sistema de recompensas.
+
+\subsubsection{Criação de novos casos de uso}
+O grupo desenvolveu novos casos de uso, incluindo a visualização e consulta detalhada de recompensas, a partilha de conquistas em redes sociais, e funcionalidades administrativas para a validação de novos códigos de barras e consulta de totais de reciclagem.
+
+\subsubsection{Análise da base de dados para reconhecimento de códigos de barras}
+Para expandir o inventário de códigos de barras, o grupo analisou diversos \textit{datasets} públicos. Optou-se por manter o reconhecimento baseado em \textit{frames} devido a restrições de tempo e recursos. Foram definidos critérios como a associação inequívoca do código ao objeto, descrição e material. Como resultado, foi selecionada a plataforma \textbf{OpenFoodFacts}, que conta com mais de um milhão de produtos registados.
+
+%==========================================================================
+% @subsection: Implementação
+% @description: Detalhes técnicos sobre as ferramentas, linguagens e 
+%              processos de desenvolvimento utilizados no projeto.
+%==========================================================================
+\subsection{Implementação}
+A fase de implementação envolveu a refatoração de código e a utilização de ferramentas externas para a gestão de dados. O desenvolvimento foi realizado em \textbf{Android Studio}, utilizando o \textbf{GitHub} para controlo de versões. O \textbf{Node.js} foi utilizado para \textit{backups}, enquanto o \textbf{Excel} e \textit{scripts} em \textbf{Python} foram fundamentais para a limpeza de dados do OpenFoodFacts.
+
+\subsubsection{Carregamento em lote da base de dados de códigos de barras}
+Através da API do OpenFoodFacts, foram filtrados exclusivamente produtos do mercado português. Os dados foram exportados para Excel para limpeza, onde um \textit{script} em Python corrigiu erros e eliminou colunas irrelevantes. Posteriormente, utilizou-se o Node.js para o \textit{backup} e a ferramenta \textbf{FireFoo} para o carregamento em lote (\textit{bulk upload}).
+
+\subsubsection{Melhorias na Interface}
+Foram introduzidas melhorias na experiência do utilizador (UX). Na interface do reciclador, eliminou-se a redundância de navegação. No painel do administrador, as pesquisas estatísticas foram redesenhadas para oferecer filtros dinâmicos. Foi também desenvolvida uma \textit{homepage} exclusiva para o administrador e uma interface dedicada à gestão de códigos de barras.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{figuras/validacao.png}
+    \caption{Interface de validação de códigos de barras sugeridos pelo reciclador}
+    \label{fig:interface1}
+\end{figure}    
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{figuras/PagInAdmin.png}
+    \caption{Interface de estatísticas do administrador com filtros personalizados}
+    \label{fig:interface2}
+\end{figure}
+
+%==========================================================================
+% @subsection: Conclusão e Trabalho Futuro
+% @description: Resumo dos resultados alcançados e sugestões para 
+%              desenvolvimentos posteriores.
+%==========================================================================
+\subsection{Conclusão e trabalho futuro}
+As modificações planeadas foram implementadas com sucesso, cumprindo a maioria dos objetivos propostos. O sistema de recompensas foi a única funcionalidade pendente, devido à sua complexidade técnica face ao cronograma disponível.
+
+Para desenvolvimentos futuros, recomenda-se a integração com redes sociais e a implementação de um sistema de atualização automática para a lista de códigos de barras na interface de validação.
+
+%==========================================================================
+% @section: Ano Letivo 2024/2025
+% @description: Detalhe das intervenções realizadas no ciclo 2024/2025, 
+%              focando-se na UX, otimização de dados e precisão métrica.
+%==========================================================================
+\section{Ano Letivo 2024/2025}
+\label{sec:ano2425}
+
+%==========================================================================
+% @subsection: Análise do Projeto Anterior
+% @description: Revisão crítica das funcionalidades e interfaces herdadas 
+%              da versão 2023/2024.
+%==========================================================================
+\subsection{Análise do projeto anterior (23/24)}
+Os alunos iniciaram o ciclo com a análise do relatório e da aplicação desenvolvida no ano letivo anterior (2023/2024). Foram revistos os casos de uso implementados, a estrutura da base de dados e a fluidez das interfaces. Concluiu-se que, apesar das bases sólidas, as interfaces careciam de melhorias significativas ao nível da usabilidade e da experiência do utilizador (UX), apresentando fluxos que poderiam ser simplificados.
+
+%==========================================================================
+% @subsection: Sugestões de melhoria e implementação
+% @description: Descrição das otimizações técnicas na base de dados e 
+%              revisão dos algoritmos de cálculo de poupança ambiental.
+%==========================================================================
+\subsection{Sugestões de melhoria e implementação}
+Com base na análise prévia, foram propostas e executadas diversas melhorias técnicas. Destacam-se a otimização da base de dados Cloud Firestore, o desenvolvimento de \textit{scripts} para enriquecimento de dados e a reestruturação do sistema de navegação para tornar a aplicação mais intuitiva. Foram também refinados os algoritmos de cálculo de emissões e energia poupada.
+
+\subsubsection{Nova implementação na base de dados Firestore}
+Na arquitetura anterior (23/24), as imagens dos produtos eram armazenadas individualmente em cada registo de reciclagem, gerando redundância e consumo desnecessário de armazenamento. Para resolver este problema, foi criada uma nova coleção dedicada exclusivamente aos produtos. Agora, a imagem está associada ao código de barras e não ao evento de reciclagem, garantindo a integridade dos dados e que cada produto possua apenas uma referência visual.
+
+Complementarmente, foi desenvolvido um \textit{script} em \textbf{Python} que consome a API da plataforma \textbf{OpenFoodFacts}. Este \textit{script} filtra produtos do mercado português e automatiza a recolha de imagens, permitindo uma expansão robusta e fidedigna do catálogo da aplicação.
+
+\subsubsection{Alterações nos valores de emissões}
+Durante a análise, verificou-se que os coeficientes de emissão para cada material reciclado não estavam devidamente documentados no relatório anterior. Assim, os valores foram atualizados recorrendo a fontes científicas e organizações ambientais fidedignas. Para aumentar a precisão, passou-se a utilizar valores médios ponderados, mitigando a variabilidade de peso em objetos com a mesma capacidade (ex: diferentes gramagens em garrafas de PET de 1,5 litros).
+
+\subsubsection{Melhorias na Interface e Navegação}
+A interface de registo de reciclagem foi simplificada para melhorar a confiança nos dados. Optou-se por remover o reconhecimento automático de objetos, que apresentava margens de erro elevadas, substituindo-o por um fluxo manual: o utilizador capta a fotografia do produto e insere o código de barras, conforme ilustrado na Figura \ref{fig:interfaceRegisto}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{figuras/registo.png}
+    \caption{Interface de registo de reciclagem}
+    \label{fig:interfaceRegisto}
+\end{figure}
+
+A página principal sofreu uma reestruturação profunda. O ecrã intermédio de navegação foi eliminado para reduzir o número de cliques. Após o \textit{login}, o reciclador acede diretamente ao seu histórico e totais de poupança (Figura \ref{fig:interfacePrincipal}), enquanto o administrador é redirecionado para a gestão de pedidos de novos códigos de barras.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/inicial2425.png}
+    \caption{Interface da página principal do reciclador}
+    \label{fig:interfacePrincipal}
+\end{figure}
+
+A introdução de um menu inferior (\textit{Bottom Navigation Bar}) consolidou as funcionalidades principais, tornando o percurso do utilizador mais fluido. O \textit{design} foi uniformizado para o tema claro (\textit{light theme}) e foram adicionadas funcionalidades de conveniência, como a opção de visualizar a palavra-passe no ecrã de autenticação.
+
+%==========================================================================
+% @subsection: Conclusão e trabalhos futuros
+% @description: Síntese dos resultados obtidos e definição de metas para 
+%              iterações posteriores do projeto.
+%==========================================================================
+\subsection{Conclusão e trabalhos futuros}
+O trabalho realizado permitiu consolidar a estrutura da base de dados Firestore e elevar o patamar de usabilidade da aplicação. A atualização dos coeficientes ambientais conferiu maior rigor científico aos resultados apresentados aos utilizadores.
+
+Como trabalhos futuros, sugere-se a inclusão de métricas de peso e volume mais granulares (kg, ml, l), a implementação efetiva do sistema de gamificação/recompensas e a unificação das páginas de registo. Propõe-se ainda a exploração de novas ferramentas de visão computacional para tentar reintroduzir o reconhecimento automático com maior taxa de acerto.
+
+%==========================================================================
+% @section: Testes e Avaliação Funcional da Aplicação
+% @description: Capítulo dedicado à análise comparativa e funcional das 
+%              três gerações da aplicação (22/23, 23/24 e 24/25).
+%==========================================================================
+\section{Testes e Avaliação Funcional da Aplicação}
+\label{sec:testes_avaliacao}
+
+%==========================================================================
+% @subsection: Avaliação Funcional das Versões da Aplicação
+% @description: Panorama geral da evolução do software e identificação 
+%              da versão mais estável.
+%==========================================================================
+\subsection{Avaliação Funcional das Versões da Aplicação}
+Foram avaliadas as três versões da aplicação (2022/2023, 2023/2024 e 2024/2025). Na comparação inicial entre as iterações de 2022/2023 e 2023/2024, verificou-se que a versão de 2023/2024 apresenta uma interface mais eficiente nas funcionalidades de administração, bem como melhorias incrementais na interface do utilizador. Estas conclusões resultam tanto dos testes empíricos realizados como da análise apresentada nos capítulos precedentes.
+
+Posteriormente, procedeu-se à comparação entre a versão de 2023/2024 e a de 2024/2025, constatando-se uma evolução substantiva nesta última. A versão 2024/2025 revelou-se notavelmente mais robusta, destacando-se como a mais completa e estável. Nesta iteração, a interface gráfica e o sistema de navegação foram profundamente otimizados, o processo de inserção de objetos na base de dados foi aperfeiçoado e registou-se uma redução drástica de falhas técnicas durante a utilização.
+
+%==========================================================================
+% @subsection: Análise Comparativa: Versões 2022/2023 e 2023/2024
+% @description: Comparação focada no backend e nas funções de gestão.
+%==========================================================================
+\subsection{Análise Comparativa: Versões 2022/2023 e 2023/2024}
+Não se verificaram alterações disruptivas ao nível da interface gráfica entre estas duas versões, sendo as modificações mais relevantes focadas no \textit{backend}. Na versão de 2023/2024, destaca-se a introdução de duas novas funcionalidades na página inicial do administrador:
+
+\subsubsection{Página Inicial do Administrador}
+A Figura \ref{fig:admin-2223} ilustra a página inicial do administrador da versão 2022/2023, com um conjunto de funções mais restrito.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{figuras/pagina-inicial-admin2223.jpeg}
+    \caption{Página inicial do administrador - versão 2022/2023}
+    \label{fig:admin-2223}
+\end{figure}
+
+Em contrapartida, a Figura \ref{fig:admin-2324} apresenta a interface da versão 2023/2024, onde são visíveis as novas opções: \textbf{"Validar Código"}, que gere a lista de códigos submetidos para aprovação, e \textbf{"Adicionar Código"}, que permite a inserção manual direta de novos itens na base de dados pelo administrador.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figuras/pagina-inicial-admin2324.jpeg}
+    \caption{Página inicial do administrador - versão 2023/2024}
+    \label{fig:admin-2324}
+\end{figure}
+
+%==========================================================================
+% @subsection: Análise Comparativa: Versões 2023/2024 e 2024/2025
+% @description: Análise das melhorias de UX/UI e novas capacidades de dados.
+%==========================================================================
+\subsection{Análise Comparativa: Versões 2023/2024 e 2024/2025}
+Na versão de 2024/2025, observam-se melhorias estruturais na interface gráfica e na lógica de navegação. Além da nova arquitetura de base de dados — que agora associa imagens reais aos objetos — a interface integra um menu de navegação persistente e diversas otimizações funcionais.
+
+\subsubsection{Página Inicial e Menu de Navegação}
+A página inicial foi substituída por \textit{dashboards} contextuais. O reciclador visualiza agora diretamente o seu histórico e impacto ambiental, enquanto o administrador acede de imediato à página de validação de produtos. A transição entre secções passou a ser gerida por um menu inferior (\textit{Bottom Navigation Bar}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figuras/pagina-inicial-reciclador2324.jpeg}
+    \caption{Página inicial do reciclador - versão 2023/2024}
+    \label{fig:reciclador-2324}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figuras/pagina-inicial-reciclador2425.jpeg}
+    \caption{Página inicial do reciclador - versão 2024/2025}
+    \label{fig:reciclador-2425}
+\end{figure}
+
+\subsubsection{Introdução de Reciclagem pelo Reciclador}
+No módulo de registo de reciclagem, foi removida a funcionalidade de reconhecimento automático de objetos devido à instabilidade reportada em versões anteriores, que frequentemente causava o encerramento inesperado (\textit{crash}) da aplicação

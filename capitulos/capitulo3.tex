@@ -1,47 +1,160 @@
-\chapter{Ano Letivo 2023/2024}
-\label{cap3}
-\section{Análise inicial do projeto anterior(22/23)}
-O grupo de alunos inciou com a análise do relatório e da aplicação desenvolvida no ano letivo anterior (22/23). Após uma avaliação foram verificadas algumas limitações e erros, o sistema continha 2 utilizadores, o reciclador que estão íncluidos estudantes, docentes, funcionários do IpBeja e o administrador que é o responsável pela gestão da aplicação mas não tinha assim tantas funções, foram identificados os casos de uso tanto do reciclador como do administrador.
-\subsection{Limitações do Sistema}
-O sistema apresentava várias limitações. As estatísticas geradas eram ineficazes, pois baseavam-se apenas no tipo de material reciclado e não no volume reciclado — um garrafão era contabilizado da mesma forma que uma simples garrafa de plástico. Além disso, o sistema de gestão do administrador não permitia gerir os códigos de barras sugeridos pelos recicladores.
-Na área de administração, a página de estatísticas também não permitia deixar filtros em branco para visualizar dados de categorias específicas. Verificou-se ainda que o sistema de reconhecimento de objetos apresentava uma taxa de sucesso reduzida, uma vez que não conseguia detetar o volume dos objetos e, por vezes, classificava objetos de plástico como sendo de vidro, resultando em erros.
-Foram igualmente identificadas funcionalidades redundantes na interface, como o botão “voltar atrás”, e a apresentação de informações gerais sobre reciclagem em vez de dados específicos sobre a reciclagem realizada pelo utilizador. O sistema apresentava também diversos erros gramaticais.
-\subsection{Sugestões de melhoria}
-Foi primeiramente realizada uma análise de sistemas semelhantes no mercado como a aplicação "Acerta e Recicla" e foram registadas possiveis melhorias, a mudança do nome do botão "A que equivalem" para "Referências" para uma melhor compreensão da sua função, a remoção de botões de navegação redudantes como o "Voltar Atrás", implementação da interface do administrador com a gestão dos códigos de barras sugeridos pelos recicaldores, mudança do sistema de reconhecimento de objetos por frames para vídeo, implementação de um sistema de recompensas para incentivar a participação dos utilizadores, entre outras melhorias.
-\subsection{Criação de novos casos de Uso}
-O grupo optou por desenvolver novos casos de uso para o sistema, incluindo a visualização das recompensas disponíveis, consulta detalhada de cada recompensa, partilha de conquistas nas redes sociais, adição e validação de códigos de barras por parte do administrador e visualização dos totais de reciclagem na página de estatísticas de poupança.
-\subsection{Análise da base de dados para reconhecimento de código de barras}
-Os alunos realizaram uma análise da base de dados para identificar a melhor forma de aumentar o número de códigos de barras. Depois de pesquisarem em datasets públicos, decidiram manter o reconhecimento de códigos de barras através de frames, devido à complexidade de implementação, à falta de tempo para o desenvolvimento do projeto e à ausência de um administrador dedicado para gerir os códigos sugeridos pelos recicladores em tempo integral.
-Estudaram os códigos de barras para compreender o seu significado e definiram critérios para a seleção da base de dados, incluindo a associação do código ao objeto, o nome ou descrição do objeto, a capacidade e o tipo de material do objeto. Como resultado, escolheram a base de dados OpenFoodFacts, uma plataforma open source com mais de um milhão de produtos, que satisfazia todos os critérios definidos.
+%==========================================================================
+% @chapter: Estudos de Campo
+% @description: Descrição da fase experimental, metodologias de recolha 
+%              de dados e análise quantitativa/qualitativa do feedback.
+%==========================================================================
+\chapter{Estudos de Campo}
+\label{cap:estudos_campo}
+
+%==========================================================================
+% @section: Metodologia e Dinâmica do Estudo
+% @description: Descrição detalhada da abordagem metodológica e dinâmica do estudo.
+%==========================================================================
+\section{Metodologia e Dinâmica do Estudo}
+
+Este capítulo descreve a componente prática e experimental do projeto, focada na interação direta com os utilizadores finais da aplicação. O principal objetivo do estudo de campo foi validar a utilidade da solução desenvolvida, medir a evolução da experiência do utilizador e avaliar o impacto real das melhorias implementadas na versão 2024/2025 em comparação com as iterações anteriores.
+
+Para garantir a fiabilidade dos resultados e compreender a evolução da perceção dos utilizadores, a metodologia de investigação assentou na realização de dois momentos distintos de auscultação:
+
+\begin{itemize}
+    \item \textbf{Questionário Pré-teste:} Aplicado antes da interação prolongada com a versão atual, com o intuito de aferir as expectativas, hábitos de reciclagem e identificar problemas recorrentes baseados em experiências anteriores com o sistema;
+    \item \textbf{Questionário Pós-teste:} Realizado após a fase de experimentação ativa, focado na avaliação da usabilidade, na satisfação geral e na eficácia das novas funcionalidades introduzidas nesta última versão.
+\end{itemize}
+
+Para o tratamento e análise dos resultados, recorreu-se ao \textbf{PowerBI}, onde foi concebida uma \textit{dashboard} interativa. Esta solução permitiu otimizar a visualização dos dados e fundamentar a análise crítica das métricas de usabilidade e satisfação.
+
+%==========================================================================
+% @section: Questionário de Avaliação da Aplicação ReciclaApp
+% @description: Detalhe do instrumento de colheita de dados, objetivos 
+%              científicos e enquadramento no modelo UTAUT2.
+%==========================================================================
+%==========================================================================
+% @section: Questionário de Avaliação Final (Pós-teste) da ReciclaApp
+% @description: Detalhe do instrumento de colheita de dados final, 
+%              focado na experiência de uso e aceitação tecnológica.
+%==========================================================================
+%==========================================================================
+% @section: Questionário de Diagnóstico e Satisfação Inicial (Pré-teste)
+% @description: Detalhe do instrumento de auscultação inicial aplicado para 
+%              aferir hábitos de reciclagem e expectativas dos utilizadores.
+%==========================================================================
+\section{Questionário Pré-teste: Diagnóstico e Expectativas do Utilizador}
+\label{sec:questionario_pre_teste}
+
+Este capítulo descreve o instrumento de inquérito aplicado na fase inicial do ensaio de campo da \textit{ReciclaApp}. Sendo um \textbf{Questionário Pré-teste}, o seu propósito é estabelecer uma linha de base (\textit{baseline}) sobre os comportamentos de reciclagem da comunidade académica e as suas expectativas em relação à solução tecnológica proposta.
+
+%==========================================================================
+% @subsection: Objetivos do Inquérito
+% @description: Definição das metas de avaliação inicial para professores, 
+%              estudantes e funcionários do IPBeja.
+%==========================================================================
+\subsection{Objetivos}
+O principal objetivo deste inquérito é avaliar o perfil e o nível de prontidão dos utilizadores da \textit{ReciclaApp} — abrangendo docentes, estudantes e funcionários do IPBeja. Através deste diagnóstico, pretende-se compreender até que ponto a aplicação antecipa as necessidades dos utilizadores e identificar, precocemente, aspetos críticos que requerem atenção no desenvolvimento.
+
+%==========================================================================
+% @subsection: Metodologia de Medição
+% @description: Detalhe das métricas utilizadas, incluindo a Escala Likert 
+%              e o System Usability Scale (SUS).
+%==========================================================================
+\subsection{Instrumentos de Medição e Escalas}
+
+Para garantir a validade estatística e a comparabilidade dos dados, foram adotados dois instrumentos principais de medição:
+
+\subsubsection{Escala de Resposta Likert}
+A maior parte das questões de opinião utiliza uma escala \textbf{Likert de 5 pontos}, permitindo quantificar o grau de concordância dos participantes:
 
 
-\section{Implementação}
-Os alunos realizaram a manipulação do código necessária para implementar as melhorias sugeridas, bem como utilizaram programas externos para efetuar o backup e o carregamento de dados na base de dados. Essas implementações foram realizadas utilizando o Android Studio e a ferramenta de controlo de versões GitHub. Para o backup, recorreram ao Node.js, enquanto para a transformação dos dados do dataset OpenFoodFacts utilizaram o Excel e scripts em Python.
-\subsection{Carregamento em lote da base de dados em código de barras}
-Os alunos realizaram uma pesquisa na API do OpenFoodFacts, filtrando exclusivamente produtos portugueses. Em seguida, exportaram os dados para o Excel, onde procederam à limpeza e formatação, removendo colunas desnecessárias e corrigindo erros com o auxílio de um script em Python. Posteriormente, utilizaram o Node.js para efetuar um backup da base de dados e, com o suporte da ferramenta FireFoo, carregaram os dados em lote para a base de dados.
-\subsection{Melhorias na Interface}
-Foram implementadas várias melhorias nas interfaces destinadas ao reciclador e ao administrador. Na interface do reciclador, destacam-se a remoção do botão "Voltar atrás" e a alteração do nome do botão "A que equivalem" para "Referências". Quanto à interface do administrador, as pesquisas de estatísticas foram redesenhadas, permitindo a seleção personalizada dos filtros pretendidos. Além disso, foi criada uma página inicial exclusiva para o administrador e desenvolvida uma interface para a gestão dos códigos de barras sugeridos pelos recicladores, assim como a funcionalidade de adição manual de códigos por parte do administrador.
+\begin{description}
+  \item[1] Discordo totalmente
+  \item[2] Discordo
+  \item[3] Nem concordo nem discordo
+  \item[4] Concordo
+  \item[5] Concordo totalmente
+\end{description}
 
-Algumas Interfaces melhoradas / adicionadas:
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.3\textwidth]{figuras/validacao.png}
-    \caption{Interface de validação de códigos de barras sugeridos pelo reciclador}
-    \label{fig:interface1}
-\end{figure}    
+\subsubsection{System Usability Scale (SUS)}
+Como complemento, foi aplicado o \textit{System Usability Scale} (SUS). Este instrumento é composto por 10 afirmações respondidas numa escala de 1 a 5. A pontuação final do SUS é posteriormente convertida para uma escala de 0 a 100, seguindo a metodologia padrão da indústria para avaliar a perceção de usabilidade global de um sistema.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.3\textwidth]{figuras/PagInAdmin.png}
-    \caption{Interface de estatísticas do administrador com filtros personalizados}
-    \label{fig:interface2}
-\end{figure}
+%==========================================================================
+% @subsection: Acesso ao Formulário
+% @description: Referência para a versão digital do questionário de 
+%              diagnóstico inicial.
+%==========================================================================
+\subsection{Acesso ao Questionário}
+O questionário de diagnóstico foi disponibilizado através da plataforma \textit{Google Forms}, podendo ser consultado na integra através da seguinte ligação: 
+
+\begin{quote}
+    \textbf{URL (Pré-teste):} \url{https://forms.gle/2bKXGUvXgRwZpfGE9}
+\end{quote}
+
+\section{Questionário Pós-teste: Avaliação de Experiência e Aceitação}
+\label{sec:questionario_pos_teste}
+
+Este capítulo detalha o instrumento de colheita de dados final, designado por \textbf{Questionário Pós-teste}, aplicado após o período de experimentação da \textit{ReciclaApp}. Ao contrário do diagnóstico inicial, este questionário foca-se na experiência real e vivida pelos utilizadores com a versão 2024/2025.
+
+%==========================================================================
+% @subsection: Objetivos do Pós-teste
+% @description: Medição da utilidade percebida e intenção de uso futuro 
+%              após a fase de testes.
+%==========================================================================
+\subsection{Objetivos e Validação de Uso}
+O principal objetivo deste questionário é compreender como os docentes e funcionários do IPBeja avaliaram a aplicação após a sua utilização efetiva. Interessa-nos validar se a \textit{ReciclaApp} demonstrou utilidade prática no quotidiano, se a navegação foi considerada intuitiva e se o sistema de registo manual de objetos se revelou mais fiável do que as soluções automáticas anteriores.
+
+%==========================================================================
+% @subsection: Enquadramento no Modelo UTAUT2
+% @description: Aplicação das dimensões de aceitação tecnológica para 
+%              validar a robustez da aplicação.
+%==========================================================================
+\subsection{Enquadramento Teórico (UTAUT2)}
+Para garantir o rigor científico, o questionário foi estruturado em dimensões que medem a aceitação tecnológica real.
 
 
 
+Nesta fase de pós-teste, as métricas focam-se em:
+\begin{itemize}
+    \item \textbf{Hábito:} A facilidade com que a reciclagem via app se tornou uma rotina;
+    \item \textbf{Valor de Preço/Esforço:} Se os benefícios de utilizar a app superam o esforço de registo;
+    \item \textbf{Intenção Comportamental:} A probabilidade real de o utilizador continuar a usar a \textit{EcoSepara} no futuro.
+\end{itemize}
 
-\section{Conclusão e trabalho futuro}
-Os alunos chegaram à conclusão de que as modificações e adições pertinentes à aplicação foram realizadas, cumprindo quase todos os pontos propostos no início do projeto. Ficou apenas por implementar o sistema de recompensas, devido à sua complexidade e ao tempo limitado disponível para o desenvolvimento.
+%==========================================================================
+% @subsection: Acesso ao Questionário Final
+% @description: Link para a versão do Google Forms utilizada para a 
+%              recolha final de feedback.
+%==========================================================================
+\subsection{Acesso ao Questionário Pós-teste}
+Para garantir a integridade dos dados e facilitar a sua posterior análise na \textit{dashboard} de \textbf{PowerBI}, o questionário foi disponibilizado digitalmente:
 
-Para trabalhos futuros, sugerem a implementação do sistema de recompensas com integração nas redes sociais, como o Facebook e o Twitter, bem como a funcionalidade para que a lista de códigos de barras na interface "Validação de código de barras" seja atualizada automaticamente.
+\begin{quote}
+    \textbf{URL (Pós-teste):} \url{https://forms.gle/SC8j9m1sgmhuotR8A}
+\end{quote}
 
+%==========================================================================
+% @section: Interpretação dos Resultados dos Questionários
+% @description: Análise crítica dos dados recolhidos, detalhando o fluxo 
+%              de processamento desde a recolha até à visualização.
+%==========================================================================
+\section{Interpretação dos Resultados dos Questionários}
+\label{sec:interpretacao_resultados}
+
+Após a fase de recolha e submissão dos questionários, procedeu-se a uma análise detalhada das respostas obtidas. Este processo foi fundamental para converter dados brutos em informação relevante para a avaliação do projeto. Para assegurar o rigor analítico, recorreu-se à metodologia \textbf{ETL} (\textit{Extract, Transform, Load}), permitindo que os dados provenientes do \textit{Google Forms} fossem processados de forma sistemática. 
+
+Os dados foram inicialmente exportados em formato \textit{Comma-Separated Values} (CSV) e, posteriormente, sujeitos a procedimentos de tratamento e modelação, garantindo a sua integridade, consistência e adequação para a fase de interpretação estatística.
+
+%==========================================================================
+% @subsection: Processo ETL (Extract, Transform, Load)
+% @description: Descrição das etapas de tratamento de dados para garantir 
+%              a qualidade da análise estatística.
+%==========================================================================
+\subsection{Processo ETL}
+O fluxo de processamento de dados foi segmentado em três etapas principais, garantindo que a análise final refletisse com precisão o \textit{feedback} dos utilizadores:
+
+
+
+\begin{itemize}
+  \item \textbf{Extract (Extração):} Nesta fase inicial, os dados brutos foram extraídos da plataforma \textit{Google Forms} e exportados para um ficheiro de suporte (CSV), servindo como repositório primário para o processamento subsequente.
+  
+  \item \textbf{Transform (Transformação):} Considerada a etapa crítica para a qualidade da informação, os dados foram sujeitos a uma limpeza profunda. Este procedimento incluiu a remoção de registos duplicados, a retificação de erros de preenchimento e a normalização de formatos, assegurando que as variáveis estivessem prontas para a aplicação de modelos analíticos.
+  
+  \item \textbf{Load (Carregamento):} Os dados devidamente tratados foram carregados no ambiente de análise (Power BI). Nesta etapa, realizaram-se os testes estatísticos e a geração de métricas descritivas que fundamentam a interpretação dos resultados e as conclusões do estudo.
+\end{itemize}
