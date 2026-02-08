@@ -1,0 +1,82 @@
+\chapter{Ano Letivo 2022/2023}
+\label{cap2}
+
+\section{Análise inicial do Projeto Anterior(21/22)}
+
+Foi realizado pelo grupo de alunos a avaliação da continuidade do projeto, começando pela análise detalhada do relatório e da aplicação do ano (21/22). Com a consequente validação, passaram para a fase de migração, aprimoramento e implementação de novas funcionalidades e melhorias de interface.
+
+\section{Migração Tecnológica}
+
+O código apresentado no relatório anterior constatava que o projeto (21/22) havia sido realizado na linguagem \texttt{Java}, e os alunos decidiram migrar para a linguagem \texttt{Kotlin} devido às suas vantagens, como a simplificação do código e a obtenção de uma estrutura mais simples e eficiente. A migração foi realizada com o auxílio do Android Studio, que possui uma ferramenta integrada para converter código Java em Kotlin. Após essa tentativa inicial de conversão, foi necessário realizar ajustes manuais para garantir que o código convertido funcionasse corretamente, incluindo a criação de fragmentos para cada interface e a diferenciação entre as classes de interface para utilizadores comuns e administradores.
+
+\newpage
+\section{Alterações na Base de Dados}
+O grupo teve que realizar uma nova ligação á base de dados Firebase (Goob) e foi decidido manter a base de dados do projeto anterior devido a facilidade de integrações entre a firebase e Android, bem como a quantidade de dados já existentes relativos ao código de barras já existentes. A estrutura da base de dados foi mantida mas não foram utilizadas algumas coleções e foram adicionadas novas coleções para suportar as novas funcionalidades da aplicação.
+
+\section{Alterações Implementadas}
+Foram implementadas algumas alteraçoes e melhorias na aplicação, nomeadamente:
+\subsection{Reconhecimento Automático de Objetos}
+O grupo verificou que o reconhecimento de objetos apresentava alguns problemas, pois a aplicação não conseguia identificar corretamente certos objetos. Isso acontecia porque o sistema processava o código de barras apenas após a fotografia ser tirada, o que, por vezes, levava à necessidade de tirar várias fotos. Para resolver esse problema, foi implementado o sistema de ML Kit da Google, que permite o reconhecimento automático de objetos em tempo real através da câmara do telemóvel, utilizando a API CameraView. Para implementar essa API, foi utilizado um sistema de processamento de frames, possibilitando o uso do scanner em todos os frames capturados pela câmara.
+\newpage
+
+\subsection{Adição de Códigos de Barras}
+No início do processo, o grupo optou por manter a funcionalidade de adicionar códigos de barras pelos utilizadores, mas verificou-se que o sistema ficaria suscetível a erros que estes poderiam cometer, como a inserção de dados incorretos relativos ao objeto. Com a sugestão dos docentes orientadores, o grupo decidiu implementar um sistema de validação por parte do administrador, onde os utilizadores poderiam adicionar os dados referentes ao código de barras e o administrador teria a possibilidade de validar ou rejeitar o código. Para isso, foi criada uma flag na base de dados chamada "isActive", que por defeito é falsa, passando a verdadeira quando o administrador valida o código de barras.
+
+\clearpage
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.2\textwidth]{figuras/NaoRecon.png}
+    \caption{Não Reconhecimento do Código de Barras}
+    \label{fig:codigosDeBarras}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.2\textwidth]{figuras/SugestaoBarras.png}
+    \caption{Sugestão de Código de Barras}
+    \label{fig:codigosDeBarras2}
+\end{figure}
+\newpage
+
+\subsection{Responsividade do Menu e Interfaces}
+O grupo tentou resolver alguns problemas de responsividade que existiam em alguns ecrãs mais pequenos e baixas resoluções, alguma parte das interfaces ficavam cortadas ou desajustadas.Foram usados alguns metodos dos layouts do Android como a vertical e horizontal chain para melhorar a responsividade da aplicação.
+Foram realizadas novas melhorias, incluindo a adição da contextualização para o utilizador conseguir entender melhor a sua reciclagem. 
+Também foi melhorada a interface que exibe a percentagem de reciclagem de cada escola, apresentando métricas como a quantidade de objetos reciclados, energia poupada e mais indicadores relevantes.
+Foram tambem alterados os textos informativos sobre o tipos de reciclagem e alguns botões da página inicial para melhorar a experiência do utilizador. 
+
+Exemplo de responsividade / interfaces melhoradas: 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figuras/ResponMelhor.png}
+    \caption{Responsividade Melhorada}
+    \label{fig:responsividade}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figuras/PercentagemEscolas.png}
+    \caption{Interface Percentagem de Reciclagem das Escolas}
+    \label{fig:responsividade2}
+\end{figure}
+
+\newpage
+
+\section{Testes e Validação}
+
+Foram realizados testes funcionais e de usabilidade para validar as altereações implementadas.
+
+Documentos das tarefas a realizar:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/testes.png}
+    \caption{Documentos de Testes}
+    \label{fig:testes}
+\end{figure}
+
+O grupo concluiu que a aplicação está funcional e pronta para ser utilizada pelos utilizadores, tendo a aplicação sido bem recebida pelos utilizadores durante os testes de usabilidade.
+   
+\newpage
+\section{Trabalhos Futuros}
+O grupo sugere que futuros trabalhos possam focar se na implementação da funcionalidade da parte do administrador, que permita a gestão dos código de barras sugeridos pelos utilizadores e podendo ainda ser melhorado o sistema de reconhecimento de objetos.
+
