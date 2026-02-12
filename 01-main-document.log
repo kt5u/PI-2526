@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 FEB 2026 16:41
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 FEB 2026 17:10
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/Nebula/Desktop/PI-2526/01-main-document.tex
@@ -2277,10 +2277,10 @@ Here is how much of LuaTeX's memory you used:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 6 kern, 1 penalty, 3 glyph, 24 attribute, 202 glue_spec, 14 attribute_list, 4 write nodes
    avail lists: 1:6,2:1240,3:251,4:135,5:416,6:77,7:5053,8:35,9:469,10:17,11:646
  72759 multiletter control sequences out of 65536+600000
- 62 fonts using 22625943 bytes
+ 62 fonts using 22626163 bytes
  131i,12n,128p,1240b,2896s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Italic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regular.otf>
-Output written on 01-main-document.pdf (40 pages, 1469428 bytes).
+Output written on 01-main-document.pdf (40 pages, 1469408 bytes).
 
 PDF statistics: 588 PDF objects out of 1000 (max. 8388607)
  475 compressed objects within 5 object streams
