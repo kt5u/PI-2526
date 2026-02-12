@@ -1,0 +1,102 @@
+\chapter{Refinamentos na Aplicação}
+
+Após a realização de estudos de campo com utilizadores reais, foi possível recolher feedback direto sobre a utilização
+ da aplicação em contexto prático. A análise das interações, dificuldades identificadas e sugestões apresentadas pelos 
+ utilizadores permitiu identificar oportunidades claras de melhoria. Com base nesse feedback, 
+ foram implementados diversos refinamentos com o objetivo de tornar a aplicação
+  mais próxima do objetivo que ela representa, eficaz e alinhada com as necessidades reais dos seus utilizadores.
+
+\clearpage
+\section{Rebranding da Aplicação}
+\subsection{Objetivo}
+Alterar o nome e a terminologia da aplicação para refletir de forma mais adequada a sua finalidade, passando do conceito de 
+reciclagem para o de separação de resíduos.
+
+\subsection{Alterações Realizadas}
+O nome da aplicação foi alterado de \textit{ReciclaApp} para \textit{EcoSepara}, bem como toda a terminologia associada, 
+substituindo os termos e expressões onde se usava o conceito de \textit{reciclagem} pelo conceito de \textit{separação de resíduos}.
+
+
+\subsection{Benefícios}
+Estas alterações resultam num nome mais intuitivo e alinhado com os objetivos da aplicação, reforçando o foco 
+na ação direta do utilizador na separação de residuos e não no processo de reciclagem.
+
+\clearpage
+\section{Sistema de Tracking de Utilizador}
+\subsection{Objetivo}
+Permitir a identificação do utilizador que submeteu cada pedido de adição de novo código de barras para introdução na base de dados.
+
+\subsection{Implementação}
+Foram adicionados campos de identificação do utilizador ao modelo de dados, capturada automaticamente a informação do 
+utilizador autenticado no momento da submissão do pedido de adição de código de barras e apresentada essa informação,
+ em cada código de barras a aceitar na interface do administrador, como se vê na figura seguinte.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figuras/userPedido.png}
+    \caption{Aceitação de código de barras - Administrador}
+    \label{fig:userPedido}
+\end{figure}
+
+
+\subsection{Benefícios}
+Este sistema garante rastreabilidade completa dos pedidos, sabendo quem fez o pedido e mantém compatibilidade 
+retroativa com os dados já existentes na base de dados.
+
+\clearpage
+\section{Sistema de Localização}
+\subsection{Objetivo}
+Registar o local onde a separação foi realizada, distinguindo entre ações efetuadas dentro e fora do IPBEJA.
+
+\subsection{Implementação}
+Foi introduzido um mecanismo de seleção obrigatória da localização no momento do registo da separação, com validação e 
+armazenamento da informação na base de dados.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{figuras/Localização.png}
+    \caption{Escolha da Localização da Separação}
+    \label{fig:localizacao}
+\end{figure}
+
+
+\subsection{Benefícios}
+A distinção clara entre a escola do utilizador e o local da separação permite análises geográficas mais precisas e evita
+ o registo de dados incompletos.
+
+\section{Gráfico de Comparação}
+\subsection{Objetivo}
+Visualizar graficamente a distribuição das separações realizadas dentro e fora do IPBeja, na página de estatísticas do administrador.
+
+\subsection{Implementação}
+Foi desenvolvido um gráfico comparativo com barras de progresso com indicação 
+de percentagens e valores absolutos, como se pode observar na seguinte figura.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{figuras/EstatisticasAdmin.png}
+    \caption{Página de Estatísticas do Administrador}
+    \label{fig:interfaceEstatisticasAdmin}
+\end{figure}
+
+\subsection{Benefícios}
+A visualização imediata facilita a interpretação dos dados globais e mantém compatibilidade com registos antigos.
+
+\subsection{Separação Conceptual: Escola vs Localização}
+\subsubsection{Conceitos Distintos}
+O campo \textit{escola} identifica a escola de origem do utilizador e é fixo no perfil, enquanto o campo \textit{localização}
+ indica onde a separação foi realizada e varia em cada registo.
+
+\subsubsection{Benefícios}
+Esta separação conceptual aumenta a flexibilidade analítica e permite identificar padrões de comportamento por escola e por local.
+
+\clearpage
+\section{Conclusões Finais dos Refinamentos}
+
+Todas as funcionalidades foram implementadas e devidamente testadas. O rebranding da aplicação, o sistema 
+de tracking de utilizadores, o registo de localização, os filtros estatísticos e os 
+gráficos comparativos encontram-se totalmente funcionais na nova versão da aplicação.
+
+Os refinamentos introduzidos melhoram significativamente a qualidade dos dados, a experiência do utilizador e a capacidade de
+ análise, mantendo total compatibilidade retroativa e estabilidade da aplicação.
