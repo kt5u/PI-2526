@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 FEB 2026 17:10
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  13 FEB 2026 18:48
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/Nebula/Desktop/PI-2526/01-main-document.tex
@@ -2212,7 +2212,7 @@ Package luatex.def Info: figuras/pagina-inicial-reciclador2425.jpeg  used on inp
 <figuras/userPedido.png, id=508, 277.78781pt x 276.28218pt>
 File: figuras/userPedido.png Graphic file (type png)
 <use figuras/userPedido.png>
-Package luatex.def Info: figuras/userPedido.png  used on input line 36.
+Package luatex.def Info: figuras/userPedido.png  used on input line 38.
 (luatex.def)             Requested size: 170.71393pt x 169.78816pt.
 
 
@@ -2222,7 +2222,7 @@ Package luatex.def Info: figuras/userPedido.png  used on input line 36.
 <figuras/Localização.png, id=514, 1349.04pt x 3003.22pt>
 File: figuras/Localização.png Graphic file (type png)
 <use figuras/Localização.png>
-Package luatex.def Info: figuras/Localização.png  used on input line 58.
+Package luatex.def Info: figuras/Localização.png  used on input line 60.
 (luatex.def)             Requested size: 106.69783pt x 237.51299pt.
 
 
@@ -2232,7 +2232,7 @@ Package luatex.def Info: figuras/Localização.png  used on input line 58.
 <figuras/EstatisticasAdmin.png, id=520, 1349.04pt x 3003.22pt>
 File: figuras/EstatisticasAdmin.png Graphic file (type png)
 <use figuras/EstatisticasAdmin.png>
-Package luatex.def Info: figuras/EstatisticasAdmin.png  used on input line 78.
+Package luatex.def Info: figuras/EstatisticasAdmin.png  used on input line 80.
 (luatex.def)             Requested size: 106.69783pt x 237.51299pt.
 
 
@@ -2264,7 +2264,7 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `01-main-document.out' has not changed.
-(rerunfilecheck)             Checksum: 97DB301D24F85909C69B012A7B880235;11070.
+(rerunfilecheck)             Checksum: 901939CFC3318819E6AA62F03A055C80;11275.
 Package logreq Info: Writing requests to '01-main-document.run.xml'.
 
 \openout1 = 01-main-document.run.xml
@@ -2277,10 +2277,10 @@ Here is how much of LuaTeX's memory you used:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 6 kern, 1 penalty, 3 glyph, 24 attribute, 202 glue_spec, 14 attribute_list, 4 write nodes
    avail lists: 1:6,2:1240,3:251,4:135,5:416,6:77,7:5053,8:35,9:469,10:17,11:646
  72759 multiletter control sequences out of 65536+600000
- 62 fonts using 22626163 bytes
+ 62 fonts using 22625943 bytes
  131i,12n,128p,1240b,2896s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Italic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regular.otf>
-Output written on 01-main-document.pdf (40 pages, 1469408 bytes).
+Output written on 01-main-document.pdf (40 pages, 1469741 bytes).
 
 PDF statistics: 588 PDF objects out of 1000 (max. 8388607)
  475 compressed objects within 5 object streams

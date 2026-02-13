@@ -1,20 +1,21 @@
 \chapter{Refinamentos na Aplicação}
 
-Após a realização de estudos de campo com utilizadores reais, foi possível recolher feedback direto sobre a utilização
+Após a realização do estudo de campo com utilizadores reais, foi possível recolher feedback direto sobre a utilização
  da aplicação em contexto prático. A análise das interações, dificuldades identificadas e sugestões apresentadas pelos 
  utilizadores permitiu identificar oportunidades claras de melhoria. Com base nesse feedback, 
  foram implementados diversos refinamentos com o objetivo de tornar a aplicação
   mais próxima do objetivo que ela representa, eficaz e alinhada com as necessidades reais dos seus utilizadores.
 
 \clearpage
-\section{Rebranding da Aplicação}
+\section{Alteração de nome e conceito da aplicação}
 \subsection{Objetivo}
-Alterar o nome e a terminologia da aplicação para refletir de forma mais adequada a sua finalidade, passando do conceito de 
+Alterar o nome e a conceito da aplicação para refletir de forma mais adequada a sua finalidade, passando do conceito de 
 reciclagem para o de separação de resíduos.
 
 \subsection{Alterações Realizadas}
 O nome da aplicação foi alterado de \textit{ReciclaApp} para \textit{EcoSepara}, bem como toda a terminologia associada, 
-substituindo os termos e expressões onde se usava o conceito de \textit{reciclagem} pelo conceito de \textit{separação de resíduos}.
+substituindo os termos e expressões onde se usava o conceito de \textit{reciclagem} pelo conceito de \textit{separação de resíduos}, 
+transitando de uma abordagem generalista à reciclagem para uma abordagem específica e orientada à separação de resíduos.
 
 
 \subsection{Benefícios}
@@ -22,9 +23,10 @@ Estas alterações resultam num nome mais intuitivo e alinhado com os objetivos 
 na ação direta do utilizador na separação de residuos e não no processo de reciclagem.
 
 \clearpage
-\section{Sistema de Tracking de Utilizador}
+\section{Sistema de Monitorização dos Pedidos do Utilizador}
 \subsection{Objetivo}
-Permitir a identificação do utilizador que submeteu cada pedido de adição de novo código de barras para introdução na base de dados.
+Permitir a identificação do utilizador que submeteu cada pedido de adição de novo código de barras para introdução na base de dados, 
+de modo a haver rastreabilidade dos pedidos dos utilizadores.
 
 \subsection{Implementação}
 Foram adicionados campos de identificação do utilizador ao modelo de dados, capturada automaticamente a informação do 
