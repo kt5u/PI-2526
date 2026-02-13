@@ -16,5 +16,274 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{fithriya2019user}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=cf6e255583ef55019df89b5340d276da}{%
+           family={Fithriya},
+           familyi={F\bibinitperiod},
+           given={Zahra},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=376b8d2115dcb1fbd2a2d3762fa07bf7}{%
+           family={Benny},
+           familyi={B\bibinitperiod},
+           given={Alexandri\bibnamedelima Mohammad},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0131203b85843dada54aa22374f2668a}{%
+           family={Margo},
+           familyi={M\bibinitperiod},
+           given={Purnomo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c13a7bb4b432e35aa900e67d8c7287b}{%
+           family={Ria},
+           familyi={R\bibinitperiod},
+           given={Arifianti},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9263d5f72410bf39ad66e95f32ed3b76}{%
+           family={Anang},
+           familyi={A\bibinitperiod},
+           given={Muftiadi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bbb6143411b53e10328dab846173509}{%
+           family={Tety},
+           familyi={T\bibinitperiod},
+           given={Herawati},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e441e65bac56acb9eae1683a70f1d58f}{%
+           family={Danang},
+           familyi={D\bibinitperiod},
+           given={Nugroho},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bf01795068249b753233693fbe5cd9d}{%
+           family={Budiana},
+           familyi={B\bibinitperiod},
+           given={Ruslan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Редакция журнала Russian Journal of Agricultural}%
+        {Socio-Economic Sciences}%
+      }
+      \strng{namehash}{fc1d30e800e1bbd0b323b3f9c381190d}
+      \strng{fullhash}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{fullhashraw}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{bibnamehash}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{authorbibnamehash}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{authornamehash}{fc1d30e800e1bbd0b323b3f9c381190d}
+      \strng{authorfullhash}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{authorfullhashraw}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Russian Journal of Agricultural and Socio-Economic Sciences}
+      \field{number}{8}
+      \field{title}{User behaviour intention using UTAUT2 model: A systematic literature review}
+      \field{volume}{92}
+      \field{year}{2019}
+      \field{pages}{265\bibrangedash 273}
+      \range{pages}{9}
+    \endentry
+    \entry{sus}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=45624c4382fbe254596a53dcf8c7ec6f}{%
+           family={Grier},
+           familyi={G\bibinitperiod},
+           given={Rebecca\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05ed7926f59ed51998e7d806c8a2ca30}{%
+           family={Bangor},
+           familyi={B\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=221e957dde9bcf783fdee858cf2b365e}{%
+           family={Kortum},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81e0e844d64a9236efd5a6e0fb116a37}{%
+           family={Peres},
+           familyi={P\bibinitperiod},
+           given={S\bibnamedelima Camille},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{bf3b66870d0bdfedc2668a8b65320a3e}
+      \strng{fullhash}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{fullhashraw}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{bibnamehash}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{authorbibnamehash}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{authornamehash}{bf3b66870d0bdfedc2668a8b65320a3e}
+      \strng{authorfullhash}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{authorfullhashraw}{39a0ede3200bcfdad911eaf0d3c76454}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the human factors and ergonomics society annual meeting}
+      \field{number}{1}
+      \field{title}{The system usability scale: Beyond standard usability testing}
+      \field{volume}{57}
+      \field{year}{2013}
+      \field{pages}{187\bibrangedash 191}
+      \range{pages}{5}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{fithriya2019user}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=cf6e255583ef55019df89b5340d276da}{%
+           family={Fithriya},
+           familyi={F\bibinitperiod},
+           given={Zahra},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=376b8d2115dcb1fbd2a2d3762fa07bf7}{%
+           family={Benny},
+           familyi={B\bibinitperiod},
+           given={Alexandri\bibnamedelima Mohammad},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0131203b85843dada54aa22374f2668a}{%
+           family={Margo},
+           familyi={M\bibinitperiod},
+           given={Purnomo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c13a7bb4b432e35aa900e67d8c7287b}{%
+           family={Ria},
+           familyi={R\bibinitperiod},
+           given={Arifianti},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9263d5f72410bf39ad66e95f32ed3b76}{%
+           family={Anang},
+           familyi={A\bibinitperiod},
+           given={Muftiadi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bbb6143411b53e10328dab846173509}{%
+           family={Tety},
+           familyi={T\bibinitperiod},
+           given={Herawati},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e441e65bac56acb9eae1683a70f1d58f}{%
+           family={Danang},
+           familyi={D\bibinitperiod},
+           given={Nugroho},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bf01795068249b753233693fbe5cd9d}{%
+           family={Budiana},
+           familyi={B\bibinitperiod},
+           given={Ruslan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Редакция журнала Russian Journal of Agricultural}%
+        {Socio-Economic Sciences}%
+      }
+      \strng{namehash}{fc1d30e800e1bbd0b323b3f9c381190d}
+      \strng{fullhash}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{fullhashraw}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{bibnamehash}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{authorbibnamehash}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{authornamehash}{fc1d30e800e1bbd0b323b3f9c381190d}
+      \strng{authorfullhash}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \strng{authorfullhashraw}{eaaa1827fa8aa8ca0b880b59f6295242}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Russian Journal of Agricultural and Socio-Economic Sciences}
+      \field{number}{8}
+      \field{title}{User behaviour intention using UTAUT2 model: A systematic literature review}
+      \field{volume}{92}
+      \field{year}{2019}
+      \field{pages}{265\bibrangedash 273}
+      \range{pages}{9}
+    \endentry
+    \entry{sus}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=45624c4382fbe254596a53dcf8c7ec6f}{%
+           family={Grier},
+           familyi={G\bibinitperiod},
+           given={Rebecca\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05ed7926f59ed51998e7d806c8a2ca30}{%
+           family={Bangor},
+           familyi={B\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=221e957dde9bcf783fdee858cf2b365e}{%
+           family={Kortum},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81e0e844d64a9236efd5a6e0fb116a37}{%
+           family={Peres},
+           familyi={P\bibinitperiod},
+           given={S\bibnamedelima Camille},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{bf3b66870d0bdfedc2668a8b65320a3e}
+      \strng{fullhash}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{fullhashraw}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{bibnamehash}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{authorbibnamehash}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{authornamehash}{bf3b66870d0bdfedc2668a8b65320a3e}
+      \strng{authorfullhash}{39a0ede3200bcfdad911eaf0d3c76454}
+      \strng{authorfullhashraw}{39a0ede3200bcfdad911eaf0d3c76454}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the human factors and ergonomics society annual meeting}
+      \field{number}{1}
+      \field{title}{The system usability scale: Beyond standard usability testing}
+      \field{volume}{57}
+      \field{year}{2013}
+      \field{pages}{187\bibrangedash 191}
+      \range{pages}{5}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

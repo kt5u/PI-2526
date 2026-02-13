@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2025.12.10)  13 FEB 2026 21:28
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2025.12.10)  13 FEB 2026 21:39
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/home/denis/Documents/y/PI-2526/01-main-document.tex
@@ -1754,7 +1754,7 @@ Package hyperref Info: Link coloring OFF on input line 13.
 
 \openout6 = 01-main-document.out
  (./parte-inicial/capa.tex
-<logos/IPbeja_horizontal.png, id=244, 352.9185pt x 146.2263pt>
+<logos/IPbeja_horizontal.png, id=248, 352.9185pt x 146.2263pt>
 File: logos/IPbeja_horizontal.png Graphic file (type png)
 <use logos/IPbeja_horizontal.png>
 Package luatex.def Info: logos/IPbeja_horizontal.png  used on input line 6.
@@ -1773,7 +1773,7 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/sc' will be
 (Font)              scaled to size 24.0pt on input line 10.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 12.
-<logos/estig.png, id=245, 352.9185pt x 241.1409pt>
+<logos/estig.png, id=249, 352.9185pt x 241.1409pt>
 File: logos/estig.png Graphic file (type png)
 <use logos/estig.png>
 Package luatex.def Info: logos/estig.png  used on input line 46.
@@ -1827,12 +1827,12 @@ Package microtype Info: Character `156' is missing
 (microtype)             in font `TU/EBGaramond(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
  [9] [10]
-<figuras/NaoRecon.png, id=383, 200.24812pt x 433.62pt>
+<figuras/NaoRecon.png, id=388, 200.24812pt x 433.62pt>
 File: figuras/NaoRecon.png Graphic file (type png)
 <use figuras/NaoRecon.png>
 Package luatex.def Info: figuras/NaoRecon.png  used on input line 56.
 (luatex.def)             Requested size: 85.35696pt x 184.83192pt.
-<figuras/SugestaoBarras.png, id=384, 271.76532pt x 575.90157pt>
+<figuras/SugestaoBarras.png, id=389, 271.76532pt x 575.90157pt>
 File: figuras/SugestaoBarras.png Graphic file (type png)
 <use figuras/SugestaoBarras.png>
 Package luatex.def Info: figuras/SugestaoBarras.png  used on input line 63.
@@ -1840,29 +1840,29 @@ Package luatex.def Info: figuras/SugestaoBarras.png  used on input line 63.
  [11
 
 <./figuras/NaoRecon.png><./figuras/SugestaoBarras.png>]
-<figuras/ResponMelhor.png, id=392, 412.54124pt x 376.40625pt>
+<figuras/ResponMelhor.png, id=397, 412.54124pt x 376.40625pt>
 File: figuras/ResponMelhor.png Graphic file (type png)
 <use figuras/ResponMelhor.png>
 Package luatex.def Info: figuras/ResponMelhor.png  used on input line 81.
 (luatex.def)             Requested size: 170.71393pt x 155.76343pt.
-<figuras/PercentagemEscolas.png, id=393, 414.79968pt x 429.10312pt>
+<figuras/PercentagemEscolas.png, id=398, 414.79968pt x 429.10312pt>
 File: figuras/PercentagemEscolas.png Graphic file (type png)
 <use figuras/PercentagemEscolas.png>
 Package luatex.def Info: figuras/PercentagemEscolas.png  used on input line 88.
 (luatex.def)             Requested size: 170.71393pt x 176.60126pt.
  [12<./figuras/ResponMelhor.png>] [13<./figuras/PercentagemEscolas.png>]
-<figuras/testes.png, id=406, 327.47343pt x 410.2828pt>
+<figuras/testes.png, id=411, 327.47343pt x 410.2828pt>
 File: figuras/testes.png Graphic file (type png)
 <use figuras/testes.png>
 Package luatex.def Info: figuras/testes.png  used on input line 104.
 (luatex.def)             Requested size: 256.07741pt x 320.83315pt.
  [14<./figuras/testes.png>] [15] [16]
-<figuras/validacao.png, id=425, 257.46187pt x 568.37344pt>
+<figuras/validacao.png, id=430, 257.46187pt x 568.37344pt>
 File: figuras/validacao.png Graphic file (type png)
 <use figuras/validacao.png>
 Package luatex.def Info: figuras/validacao.png  used on input line 165.
 (luatex.def)             Requested size: 128.0387pt x 282.65964pt.
-<figuras/PagInAdmin.png, id=426, 256.70906pt x 568.37344pt>
+<figuras/PagInAdmin.png, id=431, 256.70906pt x 568.37344pt>
 File: figuras/PagInAdmin.png Graphic file (type png)
 <use figuras/PagInAdmin.png>
 Package luatex.def Info: figuras/PagInAdmin.png  used on input line 172.
@@ -1873,12 +1873,12 @@ Overfull \hbox (9.06721pt too wide) in paragraph at lines 209--210
  []
 
 [19]
-<figuras/registo.png, id=446, 225.09094pt x 435.12563pt>
+<figuras/registo.png, id=451, 225.09094pt x 435.12563pt>
 File: figuras/registo.png Graphic file (type png)
 <use figuras/registo.png>
 Package luatex.def Info: figuras/registo.png  used on input line 224.
 (luatex.def)             Requested size: 128.0387pt x 247.52621pt.
-<figuras/inicial2425.png, id=448, 655.69969pt x 415.5525pt>
+<figuras/inicial2425.png, id=453, 655.69969pt x 415.5525pt>
 File: figuras/inicial2425.png Graphic file (type png)
 <use figuras/inicial2425.png>
 Package luatex.def Info: figuras/inicial2425.png  used on input line 233.
@@ -1888,13 +1888,13 @@ Overfull \hbox (15.58113pt too wide) in paragraph at lines 272--272
 []\TU/EBGaramond(0)/m/sc/17.28 Aná-lise Com-pa-ra-tiva: Ver-sões 2022/2023 e 2023/2024 
  []
 
-<figuras/pagina-inicial-admin2223.jpeg, id=463, 461.725pt x 1027.84pt>
+<figuras/pagina-inicial-admin2223.jpeg, id=468, 461.725pt x 1027.84pt>
 File: figuras/pagina-inicial-admin2223.jpeg Graphic file (type jpg)
 <use figuras/pagina-inicial-admin2223.jpeg>
 Package luatex.def Info: figuras/pagina-inicial-admin2223.jpeg  used on input line 280.
 (luatex.def)             Requested size: 128.0387pt x 285.01724pt.
 [22]
-<figuras/pagina-inicial-admin2324.jpeg, id=471, 461.725pt x 1027.84pt>
+<figuras/pagina-inicial-admin2324.jpeg, id=476, 461.725pt x 1027.84pt>
 File: figuras/pagina-inicial-admin2324.jpeg Graphic file (type jpg)
 <use figuras/pagina-inicial-admin2324.jpeg>
 Package luatex.def Info: figuras/pagina-inicial-admin2324.jpeg  used on input line 289.
@@ -1905,12 +1905,12 @@ Overfull \hbox (16.14896pt too wide) in paragraph at lines 298--298
  []
 
 [24<./figuras/pagina-inicial-admin2324.jpeg>]
-<figuras/pagina-inicial-reciclador2324.jpeg, id=481, 461.725pt x 1027.84pt>
+<figuras/pagina-inicial-reciclador2324.jpeg, id=486, 461.725pt x 1027.84pt>
 File: figuras/pagina-inicial-reciclador2324.jpeg Graphic file (type jpg)
 <use figuras/pagina-inicial-reciclador2324.jpeg>
 Package luatex.def Info: figuras/pagina-inicial-reciclador2324.jpeg  used on input line 306.
 (luatex.def)             Requested size: 170.71393pt x 380.02823pt.
-<figuras/pagina-inicial-reciclador2425.jpeg, id=482, 461.725pt x 1027.84pt>
+<figuras/pagina-inicial-reciclador2425.jpeg, id=487, 461.725pt x 1027.84pt>
 File: figuras/pagina-inicial-reciclador2425.jpeg Graphic file (type jpg)
 <use figuras/pagina-inicial-reciclador2425.jpeg>
 Package luatex.def Info: figuras/pagina-inicial-reciclador2425.jpeg  used on input line 313.
@@ -1918,34 +1918,34 @@ Package luatex.def Info: figuras/pagina-inicial-reciclador2425.jpeg  used on inp
  [25<./figuras/pagina-inicial-reciclador2324.jpeg>] [26<./figuras/pagina-inicial-reciclador2425.jpeg>]) (./capitulos/capitulo3.tex [27] [28
 
 ] [29] [30] [31] [32]
-<figuras/dashboard.png, id=525, 1301.86375pt x 730.73pt>
+<figuras/dashboard.png, id=534, 1301.86375pt x 730.73pt>
 File: figuras/dashboard.png Graphic file (type png)
 <use figuras/dashboard.png>
-Package luatex.def Info: figuras/dashboard.png  used on input line 179.
+Package luatex.def Info: figuras/dashboard.png  used on input line 177.
 (luatex.def)             Requested size: 426.79135pt x 239.55833pt.
  [33<./figuras/dashboard.png>]
-<figuras/dashboard2.png, id=531, 1309.89375pt x 732.7375pt>
+<figuras/dashboard2.png, id=540, 1309.89375pt x 732.7375pt>
 File: figuras/dashboard2.png Graphic file (type png)
 <use figuras/dashboard2.png>
-Package luatex.def Info: figuras/dashboard2.png  used on input line 200.
+Package luatex.def Info: figuras/dashboard2.png  used on input line 198.
 (luatex.def)             Requested size: 426.79135pt x 238.74062pt.
  [34<./figuras/dashboard2.png>]
-<figuras/app_inconsistencias.png, id=537, 709.65125pt x 331.2375pt>
+<figuras/app_inconsistencias.png, id=546, 709.65125pt x 331.2375pt>
 File: figuras/app_inconsistencias.png Graphic file (type png)
 <use figuras/app_inconsistencias.png>
-Package luatex.def Info: figuras/app_inconsistencias.png  used on input line 220.
+Package luatex.def Info: figuras/app_inconsistencias.png  used on input line 218.
 (luatex.def)             Requested size: 384.1096pt x 179.29013pt.
-<figuras/facilidade_app.png, id=538, 710.655pt x 667.49374pt>
+<figuras/facilidade_app.png, id=547, 710.655pt x 667.49374pt>
 File: figuras/facilidade_app.png Graphic file (type png)
 <use figuras/facilidade_app.png>
-Package luatex.def Info: figuras/facilidade_app.png  used on input line 227.
+Package luatex.def Info: figuras/facilidade_app.png  used on input line 225.
 (luatex.def)             Requested size: 384.1096pt x 360.78755pt.
 ) (./capitulos/capitulo4.tex [35<./figuras/app_inconsistencias.png>] [36<./figuras/facilidade_app.png>] [37
 
 ] [38
 
 ]
-<figuras/userPedido.png, id=558, 277.78781pt x 276.28218pt>
+<figuras/userPedido.png, id=567, 277.78781pt x 276.28218pt>
 File: figuras/userPedido.png Graphic file (type png)
 <use figuras/userPedido.png>
 Package luatex.def Info: figuras/userPedido.png  used on input line 45.
@@ -1953,7 +1953,7 @@ Package luatex.def Info: figuras/userPedido.png  used on input line 45.
  [39
 
 <./figuras/userPedido.png>]
-<figuras/Localização.png, id=564, 1349.04pt x 3003.22pt>
+<figuras/Localização.png, id=573, 1349.04pt x 3003.22pt>
 File: figuras/Localização.png Graphic file (type png)
 <use figuras/Localização.png>
 Package luatex.def Info: figuras/Localização.png  used on input line 67.
@@ -1961,7 +1961,7 @@ Package luatex.def Info: figuras/Localização.png  used on input line 67.
  [40
 
 <./figuras/Localização.png>]
-<figuras/EstatisticasAdmin.png, id=570, 1349.04pt x 3003.22pt>
+<figuras/EstatisticasAdmin.png, id=579, 1349.04pt x 3003.22pt>
 File: figuras/EstatisticasAdmin.png Graphic file (type png)
 <use figuras/EstatisticasAdmin.png>
 Package luatex.def Info: figuras/EstatisticasAdmin.png  used on input line 87.
@@ -1970,38 +1970,37 @@ Package luatex.def Info: figuras/EstatisticasAdmin.png  used on input line 87.
 
 ]) [44
 
+] [45
+
 ]
-
-LaTeX Warning: Empty bibliography on input line 55.
-
 \tf@toc=\write7
 
 \openout7 = 01-main-document.toc
 \tf@lof=\write8
 
 \openout8 = 01-main-document.lof
-(./01-main-document.aux)
+ (./01-main-document.aux)
 Package rerunfilecheck Info: File `01-main-document.out' has not changed.
-(rerunfilecheck)             Checksum: BF0F388988F697D9888E8105E23528C7;12439.
+(rerunfilecheck)             Checksum: 65DD0833DEAA169869F535425031AE6C;12632.
 Package logreq Info: Writing requests to '01-main-document.run.xml'.
 
 \openout1 = 01-main-document.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 49405 strings out of 478285
+ 49653 strings out of 478285
  125189,2373549 words of node,token memory allocated
- 1387 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 5 kern, 1 penalty, 3 glyph, 24 attribute, 203 glue_spec, 14 attribute_list, 4 write, 1 pdf_action nodes
-   avail lists: 1:4,2:1256,3:251,4:139,5:421,6:76,7:5053,8:35,9:473,10:17,11:645
- 67835 multiletter control sequences out of 65536+600000
+ 1378 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 5 kern, 1 penalty, 3 glyph, 22 attribute, 203 glue_spec, 13 attribute_list, 3 write, 1 pdf_action nodes
+   avail lists: 1:4,2:1264,3:262,4:139,5:423,6:81,7:5053,8:35,9:473,10:17,11:645
+ 68078 multiletter control sequences out of 65536+600000
  62 fonts using 22627163 bytes
  114i,12n,128p,1192b,2898s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regular.otf>
-Output written on 01-main-document.pdf (44 pages, 1610321 bytes).
+Output written on 01-main-document.pdf (45 pages, 1612830 bytes).
 
-PDF statistics: 640 PDF objects out of 1000 (max. 8388607)
- 512 compressed objects within 6 object streams
- 148 named destinations out of 1000 (max. 131072)
- 488 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 657 PDF objects out of 1000 (max. 8388607)
+ 528 compressed objects within 6 object streams
+ 153 named destinations out of 1000 (max. 131072)
+ 496 words of extra memory for PDF output out of 10000 (max. 100000000)
 

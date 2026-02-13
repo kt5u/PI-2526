@@ -82,4 +82,5 @@
 \contentsline {subsubsection}{\numberline {B.}Benefícios}{42}{subsubsection.4.4.4.2}%
 \contentsline {section}{\numberline {4.5}Conclusões Finais dos Refinamentos}{43}{section.4.5}%
 \contentsline {chapter}{\chapternumberline {5}Conclusões Finais}{44}{chapter.5}%
+\contentsline {section}{\bbl@ensure@portuguese {Referências bibliográficas}}{45}{section*.9}%
 \contentsfinish 
