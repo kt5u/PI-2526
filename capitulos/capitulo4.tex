@@ -17,6 +17,13 @@ O nome da aplicação foi alterado de \textit{ReciclaApp} para \textit{EcoSepara
 substituindo os termos e expressões onde se usava o conceito de \textit{reciclagem} pelo conceito de \textit{separação de resíduos}, 
 transitando de uma abordagem generalista à reciclagem para uma abordagem específica e orientada à separação de resíduos.
 
+Adicionalmente, foram introduzidos campos na \textbf{tabela de reciclagens} da base de dados para garantir rastreabilidade e contexto:
+\begin{itemize}
+    \item \texttt{user\_id}: Identificador do utilizador autenticado que submeteu o código de barras/registo da separação.
+    \item \texttt{localizacao}: Indicação da localização onde a separação foi realizada, com valores “\textit{dentro\_ipbeja}” ou “\textit{fora\_ipbeja}”.
+\end{itemize}
+Deste modo, sempre que um utilizador insere um código de barras, o registo passa a incluir o \textbf{id do utilizador} e a \textbf{localização} (fora ou dentro do IPBeja), permitindo auditoria e análises mais precisas.
+
 
 \subsection{Benefícios}
 Estas alterações resultam num nome mais intuitivo e alinhado com os objetivos da aplicação, reforçando o foco 

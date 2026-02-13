@@ -54,26 +54,32 @@
 \contentsline {subsection}{\numberline {3.3.3}Acesso ao Questionário Pós-teste}{31}{subsection.3.3.3}%
 \contentsline {section}{\numberline {3.4}Interpretação dos Resultados dos Questionários}{31}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Processo ETL}{32}{subsection.3.4.1}%
-\contentsline {chapter}{\chapternumberline {4}Refinamentos na Aplicação}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Alteração de nome e conceito da aplicação}{34}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Objetivo}{34}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Alterações Realizadas}{34}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Benefícios}{34}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Sistema de Monitorização dos Pedidos do Utilizador}{35}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Objetivo}{35}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Implementação}{35}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Benefícios}{35}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Sistema de Localização}{36}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Objetivo}{36}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Implementação}{36}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Benefícios}{36}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Gráfico de Comparação}{37}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Objetivo}{37}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Implementação}{37}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Benefícios}{37}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Separação Conceptual: Escola vs Localização}{38}{subsection.4.4.4}%
-\contentsline {subsubsection}{\numberline {A.}Conceitos Distintos}{38}{subsubsection.4.4.4.1}%
-\contentsline {subsubsection}{\numberline {B.}Benefícios}{38}{subsubsection.4.4.4.2}%
-\contentsline {section}{\numberline {4.5}Conclusões Finais dos Refinamentos}{39}{section.4.5}%
-\contentsline {chapter}{\chapternumberline {5}Conclusões Finais}{40}{chapter.5}%
+\contentsline {subsection}{\numberline {3.4.2}Resultados do questionário pré-teste: Separação de Resíduos}{32}{subsection.3.4.2}%
+\contentsline {paragraph}{Principais destaques da primeira dashboard}{33}{section*.5}%
+\contentsline {subsection}{\numberline {3.4.3}Resultados do questionário pré-teste: Experiência com Aplicações}{33}{subsection.3.4.3}%
+\contentsline {paragraph}{Principais destaques da segunda dashboard}{34}{section*.6}%
+\contentsline {subsection}{\numberline {3.4.4}Interpretação dos Resultados do Questionário Pós-teste}{34}{subsection.3.4.4}%
+\contentsline {paragraph}{Inconsistências observadas}{35}{section*.7}%
+\contentsline {chapter}{\chapternumberline {4}Refinamentos na Aplicação}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Alteração de nome e conceito da aplicação}{38}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Objetivo}{38}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Alterações Realizadas}{38}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Benefícios}{38}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Sistema de Monitorização dos Pedidos do Utilizador}{39}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Objetivo}{39}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Implementação}{39}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Benefícios}{39}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Sistema de Localização}{40}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Objetivo}{40}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Implementação}{40}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Benefícios}{40}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Gráfico de Comparação}{41}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Objetivo}{41}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Implementação}{41}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Benefícios}{41}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Separação Conceptual: Escola vs Localização}{42}{subsection.4.4.4}%
+\contentsline {subsubsection}{\numberline {A.}Conceitos Distintos}{42}{subsubsection.4.4.4.1}%
+\contentsline {subsubsection}{\numberline {B.}Benefícios}{42}{subsubsection.4.4.4.2}%
+\contentsline {section}{\numberline {4.5}Conclusões Finais dos Refinamentos}{43}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}Conclusões Finais}{44}{chapter.5}%
 \contentsfinish 
