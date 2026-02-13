@@ -82,5 +82,10 @@
 \contentsline {subsubsection}{\numberline {B.}Benefícios}{42}{subsubsection.4.4.4.2}%
 \contentsline {section}{\numberline {4.5}Conclusões Finais dos Refinamentos}{43}{section.4.5}%
 \contentsline {chapter}{\chapternumberline {5}Conclusões Finais}{44}{chapter.5}%
-\contentsline {section}{\bbl@ensure@portuguese {Referências bibliográficas}}{45}{section*.9}%
+\contentsline {section}{\numberline {5.1}Síntese do Trabalho Realizado e Melhorias Implementadas}{44}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}O que foi feito}{44}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Principais melhorias na aplicação}{44}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Principais resultados observados}{45}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Notas finais}{45}{subsection.5.1.4}%
+\contentsline {section}{\bbl@ensure@portuguese {Referências bibliográficas}}{46}{section*.9}%
 \contentsfinish 

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber 01-main-document"] 1771018718.30522 "01-main-document.bcf" "01-main-document.bbl" "01-main-document" 1771018763.33786 0
-  "01-main-document.bcf" 1771018762.93906 133854 99cb1cc38641cb63624029cdc5035c3d "lualatex"
+["biber 01-main-document"] 1771019104.80069 "01-main-document.bcf" "01-main-document.bbl" "01-main-document" 1771019167.54175 0
+  "01-main-document.bcf" 1771019167.24097 133854 99cb1cc38641cb63624029cdc5035c3d "lualatex"
   "03-bibliography.bib" 1771018714.45406 4570 d9fee4b19134fc88582c677560418321 ""
   (generated)
   "01-main-document.bbl"
   "01-main-document.blg"
   (rewritten before read)
-["lualatex"] 1771018758.18879 "/home/denis/Documents/y/PI-2526/01-main-document.tex" "01-main-document.pdf" "01-main-document" 1771018763.33823 0
+["lualatex"] 1771019162.30282 "/home/denis/Documents/y/PI-2526/01-main-document.tex" "01-main-document.pdf" "01-main-document" 1771019167.54212 0
   "/home/denis/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/ebgaramond-bold.luc" 1758989823.67136 775384 ff92cff45aa6d0619d6bc0365b73c7f5 ""
   "/home/denis/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/ebgaramond-bolditalic.luc" 1758989822.40336 651856 c94c4e0742ee5866ff76b3dfcec2a173 ""
   "/home/denis/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/ebgaramond-initials.luc" 1758989823.73139 3045 056c7d459ead1a81a780cb4f13784fec ""
@@ -275,19 +275,19 @@
   "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1764115200 13565 83bac25a8cf8630acccd6a7f8bb9f791 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1765407381.79908 4547957 ae4e693c1ef347abaec22c0b5d473ae3 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1765407059 11873941 8917a9fd75148686fdb704809bf4460d ""
-  "01-main-document.aux" 1771018762.92806 22484 da54917cf6dd0d3f103a777bf68fe7b3 "lualatex"
-  "01-main-document.bbl" 1771018719.0405 11502 451d11fe6805642d6cc92ef785ab2518 "biber 01-main-document"
-  "01-main-document.lof" 1771018762.94178 2779 f819dc088ecf8790bc2c6f22d54451db "lualatex"
-  "01-main-document.out" 1771018762.93606 12632 65dd0833deaa169869f535425031ae6c "lualatex"
-  "01-main-document.run.xml" 1771018762.94178 2489 33b372337b5bcecb74e1680242f7a0b9 "lualatex"
+  "01-main-document.aux" 1771019167.22997 23184 e1c9b72369e7a1745fe91a8bd7fc3af5 "lualatex"
+  "01-main-document.bbl" 1771019105.62985 11502 451d11fe6805642d6cc92ef785ab2518 "biber 01-main-document"
+  "01-main-document.lof" 1771019167.24259 2779 f819dc088ecf8790bc2c6f22d54451db "lualatex"
+  "01-main-document.out" 1771019167.23697 13724 426e6cc24b9f9ece87f361e31d20e864 "lualatex"
+  "01-main-document.run.xml" 1771019167.24259 2489 33b372337b5bcecb74e1680242f7a0b9 "lualatex"
   "01-main-document.tex" 1771013227.46916 2013 9b90848e7e6488bf1e0b86fa750d49a8 ""
-  "01-main-document.toc" 1771018762.94178 8417 c2363d626b5c9faba0b61b24f4c8abab "lualatex"
+  "01-main-document.toc" 1771019167.24259 8912 56040e9bbe7b31d2e7ee92e81ea8d9fd "lualatex"
   "02-info-to-fill-PT.tex" 1771013227.46916 1195 83b0f65d3ab75ad5d2c7b99edad35607 ""
   "capitulos/capitulo1-introducao.tex" 1771013227.46916 971 f85a61a32dff02f6c201976a9ee9fea6 ""
   "capitulos/capitulo2.tex" 1771013227.47009 26417 08fd642c1b357cfebe6bb6ef9abacd20 ""
   "capitulos/capitulo3.tex" 1771018754.81155 16837 1178393faf60f30fe77fd8909284c264 ""
-  "capitulos/capitulo4.tex" 1771018096.67046 5809 b013cfc96bdccb645625a9ceabfae56a ""
-  "capitulos/conclusão-geral.tex" 1771013227.47051 45 df2f8c381d26cf4b73056b3ecc0e4988 ""
+  "capitulos/capitulo4.tex" 1771019055.82284 5810 6e8c00b6096db9c4cfce95894a34e230 ""
+  "capitulos/conclusão-geral.tex" 1771019167.44697 2324 fe6702341baa0bcf241a66f0880fe5c2 ""
   "figuras/EstatisticasAdmin.png" 1771013227.47152 179867 65aa33478ba81cedff0a69235db5c5e0 ""
   "figuras/Localização.png" 1771013227.47283 259961 d9dd1b583a031df1db7b6bebd6448389 ""
   "figuras/NaoRecon.png" 1771013227.47321 131792 09f601004c2b5c679ca1c44f14974f3a ""
